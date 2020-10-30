@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+        version="1.0"
+        type="plugin"
+        group="editors-xtd"
+        method="upgrade">
+    <name>PLG_EDITORS-XTD_QLINSERT</name>
+    <author>Mareike Riegel</author>
+    <creationDate>Octobre 2020</creationDate>
+    <copyright>Copyright (C) 2020 ql.de All rights reserved.</copyright>
+    <authorEmail>mareike.riegel@ql.de</authorEmail>
+    <authorUrl>http://www.ql.de/</authorUrl>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0.1</version>
+    <description>PLG_EDITORS-XTD_QLINSERT_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="qlinsert">qlinsert.php</filename>
+        <filename>index.html</filename>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>js</folder>
+        <folder>languages</folder>
+        <folder>php</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">languages/en-GB/en-GB.plg_editors-xtd_qlinsert.ini</language>
+        <language tag="en-GB">languages/en-GB/en-GB.plg_editors-xtd_qlinsert.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="default" label="PLG_EDITORS-XTD_QLINSERT_DEFAULT_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_DEFAULT_DESC"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="oneclick" label="PLG_EDITORS-XTD_QLINSERT_DEFAULTONECLICK_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_ONECLICK_DESC" class="btn-group" type="radio" default="0">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="insert1" label="PLG_EDITORS-XTD_QLINSERT_INSERT1_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_INSERT1_DESC"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert2" label="PLG_EDITORS-XTD_QLINSERT_INSERT2_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_INSERT2_DESC"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert3" label="PLG_EDITORS-XTD_QLINSERT_INSERT3_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_INSERT3_DESC"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert4" label="PLG_EDITORS-XTD_QLINSERT_INSERT4_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_INSERT4_DESC"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="secureButSlow" label="PLG_EDITORS-XTD_QLINSERT_SECUREBUTSLOW_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_SECUREBUTSLOW_DESC" class="btn-group" type="radio"
+                       default="0">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+            <fieldset name="labels">
+                <field name="labelDefault" label="PLG_EDITORS-XTD_QLINSERT_LABELDEFAULT_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_LABELDEFAULT_LABEL_DESC"
+                       default="default">
+                </field>
+                <field name="labelInsert1" label="PLG_EDITORS-XTD_QLINSERT_LABEL1_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_LABELDEFAULT_LABEL_DESC"
+                       default="Insert 1">
+                </field>
+                <field name="labelInsert2" label="PLG_EDITORS-XTD_QLINSERT_LABEL2_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_LABELDEFAULT_LABEL_DESC"
+                       default="Insert 2">
+                </field>
+                <field name="labelInsert3" label="PLG_EDITORS-XTD_QLINSERT_LABEL3_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_LABELDEFAULT_LABEL_DESC"
+                       default="Insert 3">
+                </field>
+                <field name="labelInsert4" label="PLG_EDITORS-XTD_QLINSERT_LABEL4_LABEL"
+                       description="PLG_EDITORS-XTD_QLINSERT_LABELDEFAULT_LABEL_DESC"
+                       default="Insert 4">
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
