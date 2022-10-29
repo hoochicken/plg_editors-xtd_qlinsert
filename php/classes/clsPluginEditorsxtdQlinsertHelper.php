@@ -53,7 +53,8 @@ class clsPluginEditorsxtdQlinsertHelper
         \Joomla\CMS\Factory::$application = $app;
 
         // Execute the application.
-        // $app->execute();
+        // $app->execute;
+        $app->loadDocument();
     }
 
     function getPluginParams()
