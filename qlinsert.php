@@ -1,13 +1,15 @@
 <?php
 /**
  * @package        plg_editors-xtd_qlinsert
- * @copyright      Copyright (C) 2020 ql.de All rights reserved.
+ * @copyright      Copyright (C) 2022 ql.de All rights reserved.
  * @author         Mareike Riegel mareike.riegel@ql.de
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\Object\CMSObject;
+use Joomla\CMS\Session\Session;
+use Joomla\Event\AbstractEvent;
 
 defined('_JEXEC') or die;
 
@@ -22,6 +24,7 @@ class plgButtonQlinsert extends JPlugin
 {
     private string $destination;
     private string $default;
+    private string $token = '';
 
     /**
      * Constructor
@@ -43,24 +46,61 @@ class plgButtonQlinsert extends JPlugin
      *
      * @return CMSObject element array of (article_id, article_title, category_id, object)
      */
-    public function onDisplay($destination)
+    public function onDisplay($name)
     {
-        $this->destination = $destination;
+        $this->destination = $name;
+
         $doc = \Joomla\CMS\Factory::getDocument();
         $doc->addScript(JURI::root(true) . '/media/plg_editors-xtd_qlinsert/js/qlinsert.js');
-        return $this->getButton();
+        return $this->getButton($name);
     }
 
-    private function getButton(): CMSObject
+    private function getButton($name): CMSObject
     {
+
         $button = new CMSObject;
         $button->modal = true;
         $button->set('text', Text::_('PLG_EDITORS-XTD_qlinsert_BUTTON'));
         $button->name = $this->_type . '_' . $this->_name;
         $button->icon = 'edit';
-        $button->onclick = sprintf('window.insertQlinsert("%s", "%s");return false;', $this->destination, $this->default);
-        $button->link = '#';
+        if ((bool)$this->params->get('oneclick', 0)) {
+            $button->onclick = sprintf('window.insertQlinsert("%s", "%s");return false;', $this->destination, $this->default);
+            $button->set('link', '#');
+        } elseif (true) {
+            $button->set('link', $this->getLink($name));
+            $button->set('options', "{handler: 'iframe', size: {x: 520, y: 330}}");
+            $button->set('modal', true);
+        } else {
+            echo '<div id="testt">TESTT</div>';
+            $link = '#testt';
+            $link = 'index.php?option=com_ajax&plugin=qlinsert&group=editors-xtd&method=test&format=json';
+            echo $link;
+            $button->set('link', $link);
+            // $button->set('options', "{handler: 'iframe', size: {x: 520, y: 330}}");
+            $button->set('modal', true);
+        }
         return $button;
+    }
+
+    private function onAjax()
+    {
+        return 'Hello World';
+    }
+
+    private function onAjaxQlinsert()
+    {
+        return 'Hello World';
+    }
+
+    private function getLink($name)
+    {
+        $app = \Joomla\CMS\Factory::getApplication();
+        $link = $app->isClient('administrator') ? '..' : '';
+        $link .= '/plugins/editors-xtd/qlinsert/html/modal.php?';
+        $link .= 'bp=' . urlencode(JURI::root());
+        $link .= '&token=' . $this->token;
+        $link .= '&destination=' . $name;
+        return $link;
     }
 
     private function setDefault()
