@@ -49,7 +49,6 @@ class plgButtonQlinsert extends JPlugin
     public function onDisplay($name)
     {
         $this->destination = $name;
-
         $doc = \Joomla\CMS\Factory::getDocument();
         $doc->addScript(JURI::root(true) . '/media/plg_editors-xtd_qlinsert/js/qlinsert.js');
         return $this->getButton($name);
@@ -57,9 +56,7 @@ class plgButtonQlinsert extends JPlugin
 
     private function getButton($name): CMSObject
     {
-
         $button = new CMSObject;
-        $button->modal = true;
         $button->set('text', Text::_('PLG_EDITORS-XTD_qlinsert_BUTTON'));
         $button->name = $this->_type . '_' . $this->_name;
         $button->icon = 'edit';

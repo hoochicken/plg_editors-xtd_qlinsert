@@ -49,7 +49,7 @@ echo HTMLHelper::_('bootstrap.framework');
             $label = $params->get('label' . ucwords($v), '-');
             $label = preg_replace('/[^a-zA-Z0-9_\-\s]/s', '', $label);
             ?>
-            <li><a href="#" class="btn btn-secondary" onclick="window.parent.insertQlinsert('<?php echo $destination; ?>', <?php echo 'v' . $v; ?>)"><?php echo $label; ?></a> <?php echo substr(strip_tags($params->get($v)), 0, 25); ?>...</li>
+            <li><a href="#" class="btn btn-secondary" onclick="window.parent.insertQlinsert('<?php echo $destination; ?>', <?php echo 'v' . $v; ?>); if (window.parent.Joomla.Modal) {window.parent.Joomla.Modal.getCurrent().close();}"><?php echo $label; ?></a> <?php echo substr(strip_tags($params->get($v)), 0, 25); ?>...</li>
         <?php endforeach; ?>
     </ul>
 </div>
