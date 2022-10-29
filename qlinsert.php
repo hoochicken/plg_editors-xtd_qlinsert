@@ -66,30 +66,12 @@ class plgButtonQlinsert extends JPlugin
         if ((bool)$this->params->get('oneclick', 0)) {
             $button->onclick = sprintf('window.insertQlinsert("%s", "%s");return false;', $this->destination, $this->default);
             $button->set('link', '#');
-        } elseif (true) {
+        } else {
             $button->set('link', $this->getLink($name));
             $button->set('options', "{handler: 'iframe', size: {x: 520, y: 330}}");
             $button->set('modal', true);
-        } else {
-            echo '<div id="testt">TESTT</div>';
-            $link = '#testt';
-            $link = 'index.php?option=com_ajax&plugin=qlinsert&group=editors-xtd&method=test&format=json';
-            echo $link;
-            $button->set('link', $link);
-            // $button->set('options', "{handler: 'iframe', size: {x: 520, y: 330}}");
-            $button->set('modal', true);
         }
         return $button;
-    }
-
-    private function onAjax()
-    {
-        return 'Hello World';
-    }
-
-    private function onAjaxQlinsert()
-    {
-        return 'Hello World';
     }
 
     private function getLink($name)
