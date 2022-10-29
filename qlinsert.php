@@ -1,10 +1,15 @@
 <?php
 /**
  * @package        plg_editors-xtd_qlinsert
- * @copyright      Copyright (C) 2020 ql.de All rights reserved.
+ * @copyright      Copyright (C) 2022 ql.de All rights reserved.
  * @author         Mareike Riegel mareike.riegel@ql.de
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
+
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Object\CMSObject;
+use Joomla\CMS\Session\Session;
+use Joomla\Event\AbstractEvent;
 
 defined('_JEXEC') or die;
 
@@ -17,7 +22,9 @@ defined('_JEXEC') or die;
  */
 class plgButtonQlinsert extends JPlugin
 {
-    private $token;
+    private string $destination;
+    private string $default;
+    private string $token = '';
 
     /**
      * Constructor
@@ -27,79 +34,64 @@ class plgButtonQlinsert extends JPlugin
      * @param array $config An array that holds the plugin configuration
      * @since       1.5
      */
-    public function __construct(& $subject, $config)
+    public function __construct(&$subject, $config)
     {
         parent::__construct($subject, $config);
         $this->loadLanguage();
-        $this->token = '';
-        if (1 == $this->params->get('secureButSlow', 0)) $this->token = JSession::getFormToken();
+        $this->setDefault();
     }
 
     /**
      * Display the button
      *
-     * @return array A four element array of (article_id, article_title, category_id, object)
+     * @return CMSObject element array of (article_id, article_title, category_id, object)
      */
-    public function onDisplay($destination)
+    public function onDisplay($name)
     {
-        global $app;
-        $this->destination = $destination;
-        JHtml::_('behavior.modal');
-        JHtml::_('bootstrap.framework');
-        $doc = JFactory::getDocument();
-        $doc->addScriptDeclaration($this->getJavascript());
-        return $this->getButton();
+        $this->destination = $name;
+        $doc = \Joomla\CMS\Factory::getDocument();
+        $doc->addScript(JURI::root(true) . '/media/plg_editors-xtd_qlinsert/js/qlinsert.js');
+        return $this->getButton($name);
     }
 
-    private function getButton()
+    private function getButton($name): CMSObject
     {
-        $button = new JObject();
-        $button->set('class', 'btn');
-        $button->set('text', JText::_('qlinsert'));
-        $button->set('name', 'share');
-        $button->set('button', 'user');
-
-        if ('1' == $this->params->get('oneclick', '0')) {
-            $button->onclick = 'insertQlinsert(\'0\',\'' . $this->token . '\');return false;';
+        $button = new CMSObject;
+        $button->set('text', Text::_('PLG_EDITORS-XTD_qlinsert_BUTTON'));
+        $button->name = $this->_type . '_' . $this->_name;
+        $button->icon = 'edit';
+        if ((bool)$this->params->get('oneclick', 0)) {
+            $button->onclick = sprintf('window.insertQlinsert("%s", "%s");return false;', $this->destination, $this->default);
             $button->set('link', '#');
-
         } else {
-            $button->set('link', $this->getLink());
+            $button->set('link', $this->getLink($name));
             $button->set('options', "{handler: 'iframe', size: {x: 520, y: 330}}");
             $button->set('modal', true);
         }
         return $button;
     }
 
-    private function getLink()
+    private function getLink($name)
     {
-        global $app;
-        JHtml::_('behavior.modal');
-        $link = $app->isAdmin() ? '..' : '';
+        $app = \Joomla\CMS\Factory::getApplication();
+        $link = $app->isClient('administrator') ? '..' : '';
         $link .= '/plugins/editors-xtd/qlinsert/html/modal.php?';
         $link .= 'bp=' . urlencode(JURI::root());
         $link .= '&token=' . $this->token;
+        $link .= '&destination=' . $name;
         return $link;
     }
 
-    private function getJavascript()
+    private function setDefault()
     {
-        $js = array();
-        $js[] = 'var insertArray=new Array;';
-        require_once(__DIR__ . '/php/classes/clsPluginEditorsxtdQlinsertHelper.php');
-        $obj_qlinsertHelper = new clsPluginEditorsxtdQlinsertHelper();
-        $arr = $obj_qlinsertHelper->getFieldArray();
-        $i = 0;
-        foreach ($arr as $k => $v) $js[] = 'insertArray[' . $i++ . ']=\'' . strip_tags(str_replace("\n", '', $this->params->get($v))) . '\';';
-        $js[] = 'function insertQlinsert(integer,token)';
-        $js[] = '{';
-        if ('0' == $this->params->get('oneclick', '0')) $js[] = 'SqueezeBox.close();';
-        if (1 == $this->params->get('secureButSlow', 0)) $js[] = 'if (token!="' . $this->token . '") { SqueezeBox.close(); return false;}';
-        $js[] = 'var returnStr="";';
-        $js[] = 'returnStr+=insertArray[integer];';
-        $js[] = 'jInsertEditorText(returnStr, "' . $this->destination . '");';
-        $js[] = '}';
-        //die(implode('<br />',$js));
-        return implode("\n", $js);
+        $this->default = $this->cleanString($this->params->get('default', '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.</p>'));
+    }
+
+    private function cleanString($str)
+    {
+        $arrString = preg_split("?\n?", $str);
+        $str = '<p>' . implode('</p><p>', $arrString) . '</p>';
+        $str = str_replace("\n", '<br />', $str);
+        return str_replace("\r", '', $str);
     }
 }

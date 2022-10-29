@@ -6,16 +6,19 @@
         method="upgrade">
     <name>PLG_EDITORS-XTD_QLINSERT</name>
     <author>Mareike Riegel</author>
-    <creationDate>Octobre 2020</creationDate>
-    <copyright>Copyright (C) 2020 ql.de All rights reserved.</copyright>
+    <creationDate>Octobre 2022</creationDate>
+    <copyright>Copyright (C) 2022 ql.de All rights reserved.</copyright>
     <authorEmail>mareike.riegel@ql.de</authorEmail>
     <authorUrl>http://www.ql.de/</authorUrl>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <version>1.0.1</version>
+    <version>2.0.0</version>
     <description>PLG_EDITORS-XTD_QLINSERT_XML_DESCRIPTION</description>
     <files>
         <filename plugin="qlinsert">qlinsert.php</filename>
         <filename>index.html</filename>
+        <filename>README.md</filename>
+        <filename>LICENSE.txt</filename>
+        <folder>_jupdate</folder>
         <folder>css</folder>
         <folder>html</folder>
         <folder>js</folder>
