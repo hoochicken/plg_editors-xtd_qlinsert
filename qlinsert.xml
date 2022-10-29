@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension
-        version="2.0.2"
+        version="1.0"
         type="plugin"
         group="editors-xtd"
         method="upgrade">
@@ -13,6 +13,9 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <version>2.0.2</version>
     <description>PLG_EDITORS-XTD_QLINSERT_XML_DESCRIPTION</description>
+    <updateservers>
+        <server type="extension" priority="1" name="qlloremipsum - Updates">https://raw.githubusercontent.com/hoochicken/plg_editors-xtd_qlinsert/main/_jupdate/plg_editors-xtd_qlinsert.xml</server>
+    </updateservers>
     <files>
         <filename plugin="qlinsert">qlinsert.php</filename>
         <filename>index.html</filename>
