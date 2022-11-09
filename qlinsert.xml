@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension
-        version="1.0"
+        version="2.0.2"
         type="plugin"
         group="editors-xtd"
         method="upgrade">
@@ -32,6 +32,10 @@
         <language tag="en-GB">languages/en-GB/en-GB.plg_editors-xtd_qlinsert.ini</language>
         <language tag="en-GB">languages/en-GB/en-GB.plg_editors-xtd_qlinsert.sys.ini</language>
     </languages>
+    <media folder="media" destination="plg_editors-xtd_qlinsert">
+        <folder>js</folder>
+        <folder>css</folder>
+    </media>
     <config>
         <fields name="params">
             <fieldset name="basic">
