@@ -2,7 +2,8 @@
 	 <update>
 		<name>qlinsert</name>
 		<client>site</client>
-		<type>module</type>
+		<type>plugin</type>
+		<folder>content</folder>
 		<element>qlinsert</element>
 		<version>2.1.0</version>
 		<description>qlinsert displays a button for inserting text</description>
