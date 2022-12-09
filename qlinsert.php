@@ -51,6 +51,13 @@ class plgButtonQlinsert extends JPlugin
         $this->destination = $name;
         $doc = \Joomla\CMS\Factory::getDocument();
         $doc->addScript(JURI::root(true) . '/media/plg_editors-xtd_qlinsert/js/qlinsert.js');
+        $doc->addScriptDeclaration(sprintf('
+        function qlinsertOneclick(destination) 
+        {
+            let toBeInserted = "%s";
+            window.insertQlinsert(destination, toBeInserted)
+        }
+        ', $this->cleanseQuotes($this->default)));
         return $this->getButton($name);
     }
 
@@ -61,7 +68,7 @@ class plgButtonQlinsert extends JPlugin
         $button->name = $this->_type . '_' . $this->_name;
         $button->icon = 'edit';
         if ((bool)$this->params->get('oneclick', 0)) {
-            $button->onclick = sprintf('window.insertQlinsert("%s", "%s");return false;', $this->destination, $this->default);
+            $button->onclick = sprintf('qlinsertOneclick(\'%s\');return false;', $this->destination);
             $button->set('link', '#');
         } else {
             $button->set('link', $this->getLink($name));
@@ -84,14 +91,19 @@ class plgButtonQlinsert extends JPlugin
 
     private function setDefault()
     {
-        $this->default = $this->cleanString($this->params->get('default', '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.</p>'));
+        $this->default = $this->linebreakToParagraph($this->params->get('default', '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.</p>'));
     }
 
-    private function cleanString($str)
+    private function linebreakToParagraph($str)
     {
         $arrString = preg_split("?\n?", $str);
         $str = '<p>' . implode('</p><p>', $arrString) . '</p>';
         $str = str_replace("\n", '<br />', $str);
         return str_replace("\r", '', $str);
+    }
+
+    private function cleanseQuotes($str)
+    {
+        return str_replace('"', '\"', $str);
     }
 }
