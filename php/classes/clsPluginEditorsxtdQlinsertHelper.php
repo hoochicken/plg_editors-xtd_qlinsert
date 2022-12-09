@@ -78,9 +78,4 @@ class clsPluginEditorsxtdQlinsertHelper
     {
         return ['default', 'insert1', 'insert2', 'insert3', 'insert4',];
     }
-
-    function linebreakToParagraph($str)
-    {
-        return $str;
-    }
 }
