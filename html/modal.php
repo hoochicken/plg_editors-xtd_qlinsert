@@ -37,11 +37,18 @@ echo HTMLHelper::_('bootstrap.framework');
     <link type="text/css" href="../../../../media/vendor/bootstrap/css/bootstrap.css" rel="stylesheet"/>
     <link type="text/css" href="../css/qlinsert.css" rel="stylesheet"/>
     <script>
+        function insertQlinsertByTextarea(containerId) {
+          let strToBeInserted = document.getElementById(containerId).value;
+          window.parent.insertQlinsert('<?php echo $destination; ?>', strToBeInserted);
+        }
         <?php foreach ($arr as $v) echo sprintf('let %s = \'%s\';' . "\n", 'v' . $v, str_replace('\'', "\'", $params->get($v)));  ?>
     </script>
 </head>
 <body>
 <div class="container">
+    <?php foreach ($arr as $k => $v): ?>
+        <textarea id="container_<?php echo $k; ?>"><?php echo addslashes($params->get($v)); ?></textarea>
+    <?php endforeach; ?>
     <h3>qlinsert</h3>
     <ul class="ul-qlinserts">
         <?php
@@ -49,7 +56,7 @@ echo HTMLHelper::_('bootstrap.framework');
             $label = $params->get('label' . ucwords($v), '-');
             $label = preg_replace('/[^a-zA-Z0-9_\-\s]/s', '', $label);
             ?>
-            <li><a href="#" class="btn btn-secondary" onclick="window.parent.insertQlinsert('<?php echo $destination; ?>', <?php echo 'v' . $v; ?>); if (window.parent.Joomla.Modal) {window.parent.Joomla.Modal.getCurrent().close();}"><?php echo $label; ?></a> <?php echo substr(strip_tags($params->get($v)), 0, 25); ?>...</li>
+            <li><a href="#" class="btn btn-secondary" onclick="insertQlinsertByTextarea('<?php echo "container_{$k}"; ?>'); if (window.parent.Joomla.Modal) {window.parent.Joomla.Modal.getCurrent().close();}"><?php echo $label; ?></a> <?php echo substr(strip_tags($params->get($v)), 0, 25); ?>...</li>
         <?php endforeach; ?>
     </ul>
 </div>
