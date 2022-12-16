@@ -47,7 +47,7 @@ echo HTMLHelper::_('bootstrap.framework');
 <body>
 <div class="container">
     <?php foreach ($arr as $k => $v): ?>
-        <textarea id="container_<?php echo $k; ?>"><?php echo addslashes($params->get($v)); ?></textarea>
+        <textarea style="display:none;" id="container_<?php echo $k; ?>"><?php echo $params->get($v); ?></textarea>
     <?php endforeach; ?>
     <h3>qlinsert</h3>
     <ul class="ul-qlinserts">
