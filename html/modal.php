@@ -32,31 +32,31 @@ echo HTMLHelper::_('bootstrap.framework');
 <html>
 <head>
     <title>qlinsert Generator</title>
-    <link rel="stylesheet" href="<?php echo $modal_css; ?>"/>
+    <link rel="stylesheet" href="<?= $modal_css; ?>"/>
     <script src="../js/qlinsert.js" type="text/javascript" charset="utf-8"></script>
     <link type="text/css" href="../../../../media/vendor/bootstrap/css/bootstrap.css" rel="stylesheet"/>
     <link type="text/css" href="../css/qlinsert.css" rel="stylesheet"/>
     <script>
         function insertQlinsertByTextarea(containerId) {
           let strToBeInserted = document.getElementById(containerId).value;
-          window.parent.insertQlinsert('<?php echo $destination; ?>', strToBeInserted);
+          window.parent.insertQlinsert('<?= $destination; ?>', strToBeInserted);
         }
-        <?php foreach ($arr as $v) echo sprintf('let %s = \'%s\';' . "\n", 'v' . $v, str_replace('\'', "\'", $params->get($v)));  ?>
+        <?php foreach ($arr as $v) echo sprintf('let %s = \'%s\';' . "\n", 'v' . $v, str_replace('\'', "\'", (string)$params->get($v, '')));  ?>
     </script>
 </head>
 <body>
 <div class="container">
     <?php foreach ($arr as $k => $v): ?>
-        <textarea style="display:none;" id="container_<?php echo $k; ?>"><?php echo $params->get($v); ?></textarea>
+        <textarea style="display:none;" id="container_<?= $k; ?>"><?= $params->get($v, ''); ?></textarea>
     <?php endforeach; ?>
     <h3>qlinsert</h3>
     <ul class="ul-qlinserts">
         <?php
         foreach ($arr as $k => $v):
-            $label = $params->get('label' . ucwords($v), '-');
-            $label = preg_replace('/[^a-zA-Z0-9_\-\s]/s', '', $label);
+            $label = $params->get('label' . ucwords((string)$v), '-');
+            $label = preg_replace('/[^a-zA-Z0-9_\-\s]/s', '', (string)$label);
             ?>
-            <li><a href="#" class="btn btn-secondary" onclick="insertQlinsertByTextarea('<?php echo "container_{$k}"; ?>'); if (window.parent.Joomla.Modal) {window.parent.Joomla.Modal.getCurrent().close();}"><?php echo $label; ?></a> <?php echo substr(strip_tags($params->get($v)), 0, 25); ?>...</li>
+            <li><a href="#" class="btn btn-secondary" onclick="insertQlinsertByTextarea('<?= "container_{$k}"; ?>'); if (window.parent.Joomla.Modal) {window.parent.Joomla.Modal.getCurrent().close();}"><?= $label; ?></a> <?= substr(strip_tags((string)$params->get($v, '')), 0, 25); ?>...</li>
         <?php endforeach; ?>
     </ul>
 </div>

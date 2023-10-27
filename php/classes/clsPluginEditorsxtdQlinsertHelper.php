@@ -6,6 +6,8 @@
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
 
+use Joomla\CMS\Language\Text;
+
 defined('_JEXEC') or die;
 
 class clsPluginEditorsxtdQlinsertHelper
@@ -62,7 +64,7 @@ class clsPluginEditorsxtdQlinsertHelper
         $this->plgParams = new JRegistry();
         $plugin = JPluginHelper::getPlugin('editors-xtd', 'qlinsert');
         if ($plugin && isset($plugin->params)) $this->plgParams->loadString($plugin->params);
-        else die(JText::_('PLUGIN'));
+        else die(Text::_('PLUGIN'));
         return $this->plgParams;
     }
 
@@ -76,6 +78,6 @@ class clsPluginEditorsxtdQlinsertHelper
 
     function getFieldArray()
     {
-        return ['default', 'insert1', 'insert2', 'insert3', 'insert4',];
+        return ['default', 'insert1', 'insert2', 'insert3', 'insert4', 'insert5', 'insert6', 'insert7', 'insert8', 'insert9', 'insert10',];
     }
 }

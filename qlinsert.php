@@ -6,8 +6,11 @@
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
 
+use Joomla\CMS\Application\CMSApplicationInterface;
+use Joomla\CMS\Factory;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\Object\CMSObject;
+use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Session\Session;
 use Joomla\Event\AbstractEvent;
 
@@ -20,11 +23,12 @@ defined('_JEXEC') or die;
  * @subpackage  Editors-xtd.article
  * @since       1.5
  */
-class plgButtonQlinsert extends JPlugin
+class plgButtonQlinsert extends CMSPlugin
 {
     private string $destination;
     private string $default;
     private string $token = '';
+    private ?CMSApplicationInterface $app = null;
 
     /**
      * Constructor
@@ -36,8 +40,10 @@ class plgButtonQlinsert extends JPlugin
      */
     public function __construct(&$subject, $config)
     {
+        $this->app = Factory::getApplication();
+        $lang = $this->app->getLanguage();
+        $lang->load('plg_content_qlinsert', dirname(__FILE__));
         parent::__construct($subject, $config);
-        $this->loadLanguage();
         $this->setDefault();
     }
 
@@ -80,7 +86,7 @@ class plgButtonQlinsert extends JPlugin
 
     private function getLink($name)
     {
-        $app = \Joomla\CMS\Factory::getApplication();
+        $app = Factory::getApplication();
         $link = $app->isClient('administrator') ? '..' : '';
         $link .= '/plugins/editors-xtd/qlinsert/html/modal.php?';
         $link .= 'bp=' . urlencode(JURI::root());

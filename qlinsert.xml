@@ -49,19 +49,33 @@
                     <option value="1">JYES</option>
                 </field>
                 <field name="insert1" label="PLG_EDITORS-XTD_QLINSERT_INSERT1_LABEL"
-                       description="PLG_EDITORS-XTD_QLINSERT_INSERT1_DESC"
                        type="textarea" default="Lorem ipsum">
                 </field>
                 <field name="insert2" label="PLG_EDITORS-XTD_QLINSERT_INSERT2_LABEL"
-                       description="PLG_EDITORS-XTD_QLINSERT_INSERT2_DESC"
                        type="textarea" default="Lorem ipsum">
                 </field>
                 <field name="insert3" label="PLG_EDITORS-XTD_QLINSERT_INSERT3_LABEL"
-                       description="PLG_EDITORS-XTD_QLINSERT_INSERT3_DESC"
                        type="textarea" default="Lorem ipsum">
                 </field>
                 <field name="insert4" label="PLG_EDITORS-XTD_QLINSERT_INSERT4_LABEL"
-                       description="PLG_EDITORS-XTD_QLINSERT_INSERT4_DESC"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert5" label="PLG_EDITORS-XTD_QLINSERT_INSERT5_LABEL"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert6" label="PLG_EDITORS-XTD_QLINSERT_INSERT6_LABEL"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert7" label="PLG_EDITORS-XTD_QLINSERT_INSERT7_LABEL"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert8" label="PLG_EDITORS-XTD_QLINSERT_INSERT8_LABEL"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert9" label="PLG_EDITORS-XTD_QLINSERT_INSERT9_LABEL"
+                       type="textarea" default="Lorem ipsum">
+                </field>
+                <field name="insert10" label="PLG_EDITORS-XTD_QLINSERT_INSERT10_LABEL"
                        type="textarea" default="Lorem ipsum">
                 </field>
                 <field name="secureButSlow" label="PLG_EDITORS-XTD_QLINSERT_SECUREBUTSLOW_LABEL"
