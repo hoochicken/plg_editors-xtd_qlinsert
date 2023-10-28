@@ -1,7 +1,7 @@
 <?php
 /**
  * @package        plg_editors-xtd_qlinsert
- * @copyright    Copyright (C) 2022 ql.de All rights reserved.
+ * @copyright    Copyright (C) 2023 ql.de All rights reserved.
  * @author        Mareike Riegel mareike.riegel@ql.de
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
@@ -57,6 +57,9 @@ class clsPluginEditorsxtdQlinsertHelper
         // Execute the application.
         // $app->execute;
         $app->loadDocument();
+        /** @var \Joomla\CMS\WebAsset\WebAssetManager $wa */
+        $wa = $app->getDocument()->getWebAssetManager();
+        $wa->registerAndUseStyle('qlinsert-font-awesome', 'joomla-fontawesome.min.css');
     }
 
     function getPluginParams()

@@ -1,7 +1,7 @@
 <?php
 /**
  * @package        plg_editors-xtd_qlinsert
- * @copyright      Copyright (C) 2022 ql.de All rights reserved.
+ * @copyright      Copyright (C) 2023 ql.de All rights reserved.
  * @author         Mareike Riegel mareike.riegel@ql.de
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
@@ -12,6 +12,7 @@ use Joomla\CMS\Language\Text;
 use Joomla\CMS\Object\CMSObject;
 use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Session\Session;
+use Joomla\CMS\WebAsset\WebAssetManager;
 use Joomla\Event\AbstractEvent;
 
 defined('_JEXEC') or die;
@@ -29,6 +30,7 @@ class plgButtonQlinsert extends CMSPlugin
     private string $default;
     private string $token = '';
     private ?CMSApplicationInterface $app = null;
+    private ?WebAssetManager $wa = null;
 
     /**
      * Constructor
@@ -45,6 +47,7 @@ class plgButtonQlinsert extends CMSPlugin
         $lang->load('plg_content_qlinsert', dirname(__FILE__));
         parent::__construct($subject, $config);
         $this->setDefault();
+        $this->wa = Factory::getApplication()->getDocument()->getWebAssetManager();
     }
 
     /**
@@ -70,7 +73,8 @@ class plgButtonQlinsert extends CMSPlugin
     private function getButton($name): CMSObject
     {
         $button = new CMSObject;
-        $button->set('text', Text::_('PLG_EDITORS-XTD_qlinsert_BUTTON'));
+        // $button->set('text', Text::_('PLG_EDITORS-XTD_qlinsert_BUTTON'));
+        $button->set('text', 'qlinsert');
         $button->name = $this->_type . '_' . $this->_name;
         $button->icon = 'edit';
         if ((bool)$this->params->get('oneclick', 0)) {

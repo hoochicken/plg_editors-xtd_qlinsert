@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension
-        version="2.0.3"
+        version="2.0.4"
         type="plugin"
         group="editors-xtd"
         method="upgrade">
     <name>PLG_EDITORS-XTD_QLINSERT</name>
     <author>Mareike Riegel</author>
-    <creationDate>Octobre 2022</creationDate>
+    <creationDate>Octobre 2023</creationDate>
     <copyright>Copyright (C) 2022 ql.de All rights reserved.</copyright>
     <authorEmail>mareike.riegel@ql.de</authorEmail>
     <authorUrl>http://www.ql.de/</authorUrl>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <version>2.1.0</version>
+    <version>2.1.1</version>
     <description>PLG_EDITORS-XTD_QLINSERT_XML_DESCRIPTION</description>
     <updateservers>
         <server type="extension" priority="1" name="qlloremipsum - Updates">https://raw.githubusercontent.com/hoochicken/plg_editors-xtd_qlinsert/main/_jupdate/plg_editors-xtd_qlinsert.xml</server>
@@ -37,47 +37,38 @@
         <folder>css</folder>
     </media>
     <config>
-        <fields name="params">
+        <fields name="params" addfieldpath="/plugins/editors-xtd/qlinsert/php/field" addrulepath="/plugins/editors-xtd/qlinsert/php/rules">
             <fieldset name="basic">
                 <field name="default" label="PLG_EDITORS-XTD_QLINSERT_DEFAULT_LABEL"
                        description="PLG_EDITORS-XTD_QLINSERT_DEFAULT_DESC"
-                       type="textarea" default="Lorem ipsum">
+                       type="textarea" default="">
                 </field>
+                <field name="defaulticon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
                 <field name="oneclick" label="PLG_EDITORS-XTD_QLINSERT_DEFAULTONECLICK_LABEL"
                        description="PLG_EDITORS-XTD_QLINSERT_ONECLICK_DESC" class="btn-group" type="radio" default="0">
                     <option value="0">JNO</option>
                     <option value="1">JYES</option>
                 </field>
-                <field name="insert1" label="PLG_EDITORS-XTD_QLINSERT_INSERT1_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert2" label="PLG_EDITORS-XTD_QLINSERT_INSERT2_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert3" label="PLG_EDITORS-XTD_QLINSERT_INSERT3_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert4" label="PLG_EDITORS-XTD_QLINSERT_INSERT4_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert5" label="PLG_EDITORS-XTD_QLINSERT_INSERT5_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert6" label="PLG_EDITORS-XTD_QLINSERT_INSERT6_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert7" label="PLG_EDITORS-XTD_QLINSERT_INSERT7_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert8" label="PLG_EDITORS-XTD_QLINSERT_INSERT8_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert9" label="PLG_EDITORS-XTD_QLINSERT_INSERT9_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
-                <field name="insert10" label="PLG_EDITORS-XTD_QLINSERT_INSERT10_LABEL"
-                       type="textarea" default="Lorem ipsum">
-                </field>
+                <field name="insert1" label="PLG_EDITORS-XTD_QLINSERT_INSERT1_LABEL"  type="textarea" default="" />
+                <field name="insert1icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert2" label="PLG_EDITORS-XTD_QLINSERT_INSERT2_LABEL"  type="textarea" default="" />
+                <field name="insert2icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert3" label="PLG_EDITORS-XTD_QLINSERT_INSERT3_LABEL"  type="textarea" default="" />
+                <field name="insert3icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert4" label="PLG_EDITORS-XTD_QLINSERT_INSERT4_LABEL"  type="textarea" default="" />
+                <field name="insert4icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert5" label="PLG_EDITORS-XTD_QLINSERT_INSERT5_LABEL"  type="textarea" default="" />
+                <field name="insert5icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert6" label="PLG_EDITORS-XTD_QLINSERT_INSERT6_LABEL"  type="textarea" default="" />
+                <field name="insert6icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert7" label="PLG_EDITORS-XTD_QLINSERT_INSERT7_LABEL"  type="textarea" default="" />
+                <field name="insert7icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert8" label="PLG_EDITORS-XTD_QLINSERT_INSERT8_LABEL"  type="textarea" default="" />
+                <field name="insert8icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert9" label="PLG_EDITORS-XTD_QLINSERT_INSERT9_LABEL"  type="textarea" default="" />
+                <field name="insert9icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                <field name="insert10" label="PLG_EDITORS-XTD_QLINSERT_INSERT10_LABEL"  type="textarea" default="" />
+                <field name="insert10icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
                 <field name="secureButSlow" label="PLG_EDITORS-XTD_QLINSERT_SECUREBUTSLOW_LABEL"
                        description="PLG_EDITORS-XTD_QLINSERT_SECUREBUTSLOW_DESC" class="btn-group" type="radio"
                        default="0">

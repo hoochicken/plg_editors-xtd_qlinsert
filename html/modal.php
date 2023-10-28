@@ -1,7 +1,7 @@
 <?php
 /**
  * @package        plg_editors-xtd_qlinsert
- * @copyright      Copyright (C) 2022 ql.de All rights reserved.
+ * @copyright      Copyright (C) 2023 ql.de All rights reserved.
  * @author         Mareike Riegel mareike.riegel@ql.de
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
@@ -32,9 +32,11 @@ echo HTMLHelper::_('bootstrap.framework');
 <html>
 <head>
     <title>qlinsert Generator</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="<?= $modal_css; ?>"/>
     <script src="../js/qlinsert.js" type="text/javascript" charset="utf-8"></script>
     <link type="text/css" href="../../../../media/vendor/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link type="text/css" href="../../../../media/system/css/joomla-fontawesome.min.css" rel="stylesheet"/>
     <link type="text/css" href="../css/qlinsert.css" rel="stylesheet"/>
     <script>
         function insertQlinsertByTextarea(containerId) {
@@ -55,8 +57,17 @@ echo HTMLHelper::_('bootstrap.framework');
         foreach ($arr as $k => $v):
             $label = $params->get('label' . ucwords((string)$v), '-');
             $label = preg_replace('/[^a-zA-Z0-9_\-\s]/s', '', (string)$label);
+            $paramName = $v . 'icon';
+            $defaultValue = trim($params->get($v, ''));
+            if (empty($defaultValue)) {
+                continue;
+            }
+            $icon = $params->get($paramName, '');
+            $label = !empty($icon)
+                ? sprintf('<i class="fa %s"></i> ', $icon) . $label
+                : $label;
             ?>
-            <li><a href="#" class="btn btn-secondary" onclick="insertQlinsertByTextarea('<?= "container_{$k}"; ?>'); if (window.parent.Joomla.Modal) {window.parent.Joomla.Modal.getCurrent().close();}"><?= $label; ?></a> <?= substr(strip_tags((string)$params->get($v, '')), 0, 25); ?>...</li>
+            <li><a href="#" class="btn btn-secondary button-well" onclick="insertQlinsertByTextarea('<?= "container_{$k}"; ?>'); if (window.parent.Joomla.Modal) {window.parent.Joomla.Modal.getCurrent().close();}"><?= $label; ?></a> <?= substr(strip_tags((string)$params->get($v, '')), 0, 25); ?>...</li>
         <?php endforeach; ?>
     </ul>
 </div>
