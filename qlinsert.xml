@@ -39,6 +39,8 @@
     <config>
         <fields name="params" addfieldpath="/plugins/editors-xtd/qlinsert/php/field" addrulepath="/plugins/editors-xtd/qlinsert/php/rules">
             <fieldset name="basic">
+                <field name="icon_explanation" type="explanation"/>
+
                 <field name="label_insert1" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT1" />
                 <field name="insert1" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="labelInsert1" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 2" />
