@@ -13,7 +13,7 @@ jimport('joomla.html.html');
 //import the necessary class definition for formfield
 jimport('joomla.form.formfield');
 
-class JFormFieldFa extends JFormField
+class JFormFieldFadisplay extends JFormField
 {
     /**
      * The form field type.
@@ -31,28 +31,18 @@ class JFormFieldFa extends JFormField
      */
     protected function getInput()
     {
-        $this->value = trim($this->value);
         $faClassesRaw = $this->getFaClassesByFile($this->filepath);
         $faClasses = [];
-        $insertCounter = substr(substr($this->name, strrpos($this->name, '[') + 1), 0, -1);
         foreach ($faClassesRaw as $faSelector) {
             $faClasses[] = array_values(array_filter(explode(' ', $faSelector)));
         }
-        $script = sprintf('javascript:document.getElementById(\'display_%s\').className = \'\'; document.getElementById(\'display_%s\').className = \'fa \' + this.value;', $insertCounter, $insertCounter, trim($this->value));
-        $html = '';
-        $html .= sprintf('<i id="display_%s" class="fa %s"></i>&nbsp;&nbsp;&nbsp;', $insertCounter, trim($this->value));
-        $html .= sprintf('<select onchange="%s" class="form-control" style="display:inline-block;width:95%%;font-family: \'Font Awesome\ 5 Free\', Sans-serif;" name="%s" id="%s">', $script, $this->name, $this->id);
-        $html .= sprintf('<option %s value="">%s</option>', empty(trim($this->value)) ? 'selected' : '', Text::_('PLG_EDITORS-XTD_QLINSERT_CHOOSEPLZ'));
+        $html = '<script></script>';
+        $html .= '<ul class="row" style="list-style-type: none;">';
         foreach ($faClasses as $class) {
-            $glyphCode =  (2 !== count($class))
-                ? $class[1] = ''
-                : sprintf('&#%s;', $class[1]);
-            $label = $class[0];
-            $labelLabel = substr($label, 3);
-            $html .= sprintf('<option %s value="%s">%s %s</option>', $label === trim($this->value) ? 'selected' : '', $label, $labelLabel, $glyphCode);
-
+            $cssClass = $class[0] ?? '';
+            $html .= sprintf('<li class="col-md-3 col-sm-4 col-xs 6"><i class="fa %s "></i> %s</li>', $cssClass, $cssClass);
         }
-        $html .= '</select>';
+        $html .= '</ul>';
         return $html;
     }
 

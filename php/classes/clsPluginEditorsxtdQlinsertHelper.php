@@ -6,7 +6,10 @@
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
 
+use Joomla\CMS\Factory;
+use Joomla\Registry\Registry;
 use Joomla\CMS\Language\Text;
+use Joomla\CMS\Plugin\PluginHelper;
 
 defined('_JEXEC') or die;
 
@@ -64,8 +67,8 @@ class clsPluginEditorsxtdQlinsertHelper
 
     function getPluginParams()
     {
-        $this->plgParams = new JRegistry();
-        $plugin = JPluginHelper::getPlugin('editors-xtd', 'qlinsert');
+        $this->plgParams = new Registry();
+        $plugin = PluginHelper::getPlugin('editors-xtd', 'qlinsert');
         if ($plugin && isset($plugin->params)) $this->plgParams->loadString($plugin->params);
         else die(Text::_('PLUGIN'));
         return $this->plgParams;
@@ -73,7 +76,7 @@ class clsPluginEditorsxtdQlinsertHelper
 
     function loadLanguageFiles($extension)
     {
-        $lang = JFactory::getLanguage();
+        $lang = Factory::getLanguage();
         $base_dir = JPATH_SITE;
         $reload = true;
         $lang->load($extension, $base_dir, $lang->getTag(), $reload);
