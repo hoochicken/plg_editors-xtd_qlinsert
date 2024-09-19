@@ -42,14 +42,13 @@
                 <field name="icon_explanation" type="explanation"/>
 
                 <field name="label_insert1" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT1" />
-                <field name="insert1" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="labelInsert1" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 2" />
+                <field name="insert1" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert1icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
                 
                 <field name="label_insert2" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT2" />
                 <field name="labelInsert2" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 3" />
                 <field name="insert2" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
-                <!--field name="label_button_insert2" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_LABEL" /-->
                 <field name="insert2icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
                 
                 <field name="label_insert3" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT3" />
@@ -71,22 +70,27 @@
                 <field name="labelInsert6" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 6" />
                 <field name="insert6" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert6icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                    
                 <field name="label_insert7" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT7" />
                 <field name="labelInsert7" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 7" />
                 <field name="insert7" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert7icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                    
                 <field name="label_insert8" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT8" />
                 <field name="labelInsert8" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 8" />
                 <field name="insert8" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert8icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                    
                 <field name="label_insert9" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT9" />
                 <field name="labelInsert9" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 9" />
                 <field name="insert9" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert9icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                    
                 <field name="label_insert10" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT10" />
                 <field name="labelInsert10" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 10" />
                 <field name="insert10" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert10icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
+                    
                 <field name="secureButSlow" label="PLG_EDITORS-XTD_QLINSERT_SECUREBUTSLOW_LABEL"
                        description="PLG_EDITORS-XTD_QLINSERT_SECUREBUTSLOW_DESC" class="btn-group" type="radio"
                        default="0">
