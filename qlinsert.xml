@@ -6,12 +6,12 @@
         method="upgrade">
     <name>PLG_EDITORS-XTD_QLINSERT</name>
     <author>Mareike Riegel</author>
-    <creationDate>Octobre 2023</creationDate>
-    <copyright>Copyright (C) 2023 ql.de All rights reserved.</copyright>
+    <creationDate>Octobre 2024</creationDate>
+    <copyright>Copyright (C) 2024 ql.de All rights reserved.</copyright>
     <authorEmail>mareike.riegel@ql.de</authorEmail>
     <authorUrl>http://ql.de/</authorUrl>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <version>2.2.2</version>
+    <version>2.2.4</version>
     <description>PLG_EDITORS-XTD_QLINSERT_XML_DESCRIPTION</description>
     <updateservers>
         <server type="extension" priority="1" name="qlloremipsum - Updates">https://raw.githubusercontent.com/hoochicken/plg_editors-xtd_qlinsert/main/_jupdate/plg_editors-xtd_qlinsert.xml</server>
