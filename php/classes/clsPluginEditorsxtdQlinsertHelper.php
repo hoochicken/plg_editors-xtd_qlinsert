@@ -1,7 +1,7 @@
 <?php
 /**
  * @package        plg_editors-xtd_qlinsert
- * @copyright    Copyright (C) 2023 ql.de All rights reserved.
+ * @copyright    Copyright (C) 2025 ql.de All rights reserved.
  * @author        Mareike Riegel mareike.riegel@ql.de
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
@@ -84,6 +84,6 @@ class clsPluginEditorsxtdQlinsertHelper
 
     function getFieldArray()
     {
-        return ['default', 'insert1', 'insert2', 'insert3', 'insert4', 'insert5', 'insert6', 'insert7', 'insert8', 'insert9', 'insert10',];
+        return ['default', 'insert1', 'insert2', 'insert3', 'insert4', 'insert5', 'insert6', 'insert7', 'insert8', 'insert9', 'insert10', 'insert11', 'insert12',];
     }
 }
