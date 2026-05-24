@@ -1,13 +1,14 @@
 <?php
 /**
  * @package        plg_editors-xtd_qlinsert
- * @copyright      Copyright (C) 2025 ql.de All rights reserved.
+ * @copyright      Copyright (C) 2026 ql.de All rights reserved.
  * @author         Mareike Riegel mareike.riegel@ql.de
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\HTML\HTMLHelper as JHtml;
+use Joomla\CMS\Language\Text;
 
 $base = isset($_GET['bp']) ? urldecode($_GET['bp']) : '';
 $token = $_GET['token'] ?? '';
@@ -54,6 +55,7 @@ echo HTMLHelper::_('bootstrap.framework');
     <h3>qlinsert</h3>
     <ul class="ul-qlinserts">
         <?php
+        $valuesDefined = false;
         foreach ($arr as $k => $v):
             $label = $params->get('label' . ucwords((string)$v), '-');
             $label = preg_replace('/[^a-zA-Z0-9_\-\s]/s', '', (string)$label);
@@ -62,6 +64,7 @@ echo HTMLHelper::_('bootstrap.framework');
             if (empty($defaultValue)) {
                 continue;
             }
+            $valuesDefined = true;
             $icon = $params->get($paramName, '');
             $label = !empty($icon)
                 ? sprintf('<i class="fa %s"></i> ', $icon) . $label
@@ -70,6 +73,9 @@ echo HTMLHelper::_('bootstrap.framework');
             <li><a href="#" class="btn btn-secondary button-well" onclick="insertQlinsertByTextarea('<?= "container_{$k}"; ?>'); if (window.parent.Joomla.Modal) {window.parent.Joomla.Modal.getCurrent().close();}"><?= $label; ?></a> <?= substr(strip_tags((string)$params->get($v, '')), 0, 25); ?>...</li>
         <?php endforeach; ?>
     </ul>
+    <?php if (!$valuesDefined): ?>
+        <div class="alert alert-info"><?= Text::_('XTD_QLINSERT_MSG_NOVALUESDEFINED') ?></div>
+    <?php endif; ?>
 </div>
 </body>
 </html>

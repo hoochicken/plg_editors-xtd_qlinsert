@@ -1,7 +1,7 @@
 <?php
 /**
  * @package        plg_editors-xtd_qlinsert
- * @copyright      Copyright (C) 2025 ql.de All rights reserved.
+ * @copyright      Copyright (C) 2026 ql.de All rights reserved.
  * @author         Mareike Riegel mareike.riegel@ql.de
  * @license        GNU General Public License version 2 or later; see LICENSE.txt
  */
@@ -12,6 +12,7 @@ use Joomla\CMS\Language\Text;
 use Joomla\CMS\Object\CMSObject;
 use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Session\Session;
+use Joomla\CMS\Uri\Uri;
 use Joomla\CMS\WebAsset\WebAssetManager;
 use Joomla\Event\AbstractEvent;
 
@@ -58,8 +59,8 @@ class plgButtonQlinsert extends CMSPlugin
     public function onDisplay($name)
     {
         $this->destination = $name;
-        $doc = \Joomla\CMS\Factory::getDocument();
-        $doc->addScript(JURI::root(true) . '/media/plg_editors-xtd_qlinsert/js/qlinsert.js');
+        $doc = Factory::getDocument();
+        $doc->addScript(URI::root(true) . '/media/plg_editors-xtd_qlinsert/js/qlinsert.js');
         $doc->addScriptDeclaration(sprintf('
         function qlinsertOneclick(destination) 
         {
@@ -73,9 +74,8 @@ class plgButtonQlinsert extends CMSPlugin
     private function getButton($name): CMSObject
     {
         $button = new CMSObject;
-        // $button->set('text', Text::_('PLG_EDITORS-XTD_qlinsert_BUTTON'));
         $button->set('text', 'qlinsert');
-        $button->name = $this->_type . '_' . $this->_name;
+        $button->set('name', $this->_type . '_' . $this->_name);
         $button->icon = 'edit';
         if ((bool)$this->params->get('oneclick', 0)) {
             $button->onclick = sprintf('qlinsertOneclick(\'%s\');return false;', $this->destination);
@@ -93,7 +93,7 @@ class plgButtonQlinsert extends CMSPlugin
         $app = Factory::getApplication();
         $link = $app->isClient('administrator') ? '..' : '';
         $link .= '/plugins/editors-xtd/qlinsert/html/modal.php?';
-        $link .= 'bp=' . urlencode(JURI::root());
+        $link .= 'bp=' . urlencode(URI::root());
         $link .= '&token=' . $this->token;
         $link .= '&destination=' . $name;
         return $link;

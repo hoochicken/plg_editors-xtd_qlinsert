@@ -6,12 +6,12 @@
         method="upgrade">
     <name>PLG_EDITORS-XTD_QLINSERT</name>
     <author>Mareike Riegel</author>
-    <creationDate>August 2025</creationDate>
-    <copyright>Copyright (C) 2025 ql.de All rights reserved.</copyright>
+    <creationDate>2026</creationDate>
+    <copyright>Copyright (C) 2026 ql.de All rights reserved.</copyright>
     <authorEmail>mareike.riegel@ql.de</authorEmail>
     <authorUrl>http://ql.de/</authorUrl>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <version>2.3.0</version>
+    <version>2.4.0</version>
     <description>PLG_EDITORS-XTD_QLINSERT_XML_DESCRIPTION</description>
     <updateservers>
         <server type="extension" priority="1" name="qlloremipsum - Updates">https://raw.githubusercontent.com/hoochicken/plg_editors-xtd_qlinsert/main/_jupdate/plg_editors-xtd_qlinsert.xml</server>
@@ -42,22 +42,22 @@
                 <field name="icon_explanation" type="explanation"/>
 
                 <field name="label_insert1" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT1" />
-                <field name="labelInsert1" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 2" />
+                <field name="labelInsert1" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 1" />
                 <field name="insert1" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert1icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
                 
                 <field name="label_insert2" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT2" />
-                <field name="labelInsert2" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 3" />
+                <field name="labelInsert2" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 2" />
                 <field name="insert2" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert2icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
                 
                 <field name="label_insert3" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT3" />
-                <field name="labelInsert3" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 4" />
+                <field name="labelInsert3" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 3" />
                 <field name="insert3" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert3icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
                 
                 <field name="label_insert4" type="spacer" label="PLG_EDITORS-XTD_QLINSERT_SPACER_INSERT4" />
-                <field name="labelInsert4" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 1" />
+                <field name="labelInsert4" label="PLG_EDITORS-XTD_QLINSERT_LABEL" default="Insert 4" />
                 <field name="insert4" label="PLG_EDITORS-XTD_QLINSERT_CONTENT_LABEL"  type="textarea" default="" />
                 <field name="insert4icon" label="PLG_EDITORS-XTD_QLINSERT_ICON_LABEL" type="fa" />
                 
