@@ -1,0 +1,1837 @@
+fa-accessible-icon
+fa-accusoft
+fa-acquisitions-incorporated
+fa-ad
+fa-address-book xf2b9
+fa-address-card xf2bb
+fa-adjust xf042
+fa-adn xf170
+fa-adversal
+fa-affiliatetheme
+fa-air-freshener
+fa-airbnb
+fa-algolia
+fa-align-center xf037
+fa-align-justify xf039
+fa-align-left xf036
+fa-align-right xf038
+fa-alipay
+fa-allergies
+fa-amazon xf270
+fa-amazon-pay
+fa-ambulance xf0f9
+fa-american-sign-language-interpreting xf2a3
+fa-amilia
+fa-anchor xf13d
+fa-android xf17b
+fa-angellist xf209
+fa-angle-double-down xf103
+fa-angle-double-left xf100
+fa-angle-double-right xf101
+fa-angle-double-up xf102
+fa-angle-down xf107
+fa-angle-left xf104
+fa-angle-right xf105
+fa-angle-up xf106
+fa-angry
+fa-angrycreative
+fa-angular
+fa-ankh
+fa-app-store
+fa-app-store-ios
+fa-apper
+fa-apple xf179
+fa-apple-alt
+fa-apple-pay
+fa-archive xf187
+fa-archway
+fa-arrow-alt-circle-down
+fa-arrow-alt-circle-left
+fa-arrow-alt-circle-right
+fa-arrow-alt-circle-up
+fa-arrow-circle-down xf0ab
+fa-arrow-circle-left xf0a8
+fa-arrow-circle-right xf0a9
+fa-arrow-circle-up xf0aa
+fa-arrow-down xf063
+fa-arrow-left xf060
+fa-arrow-right xf061
+fa-arrow-up xf062
+fa-arrows-alt xf0b2
+fa-arrows-alt-h
+fa-arrows-alt-v
+fa-artstation
+fa-assistive-listening-systems xf2a2
+fa-asterisk xf069
+fa-asymmetrik
+fa-at
+fa-atlas
+fa-atlassian
+fa-atom
+fa-audible
+fa-audio-description xf29e
+fa-autoprefixer
+fa-avianex
+fa-aviato
+fa-award
+fa-aws
+fa-baby
+fa-baby-carriage
+fa-backspace
+fa-backward xf04a
+fa-bacon
+fa-bacteria
+fa-bacterium
+fa-bahai
+fa-balance-scale xf24e
+fa-balance-scale-left
+fa-balance-scale-right
+fa-ban xf05e
+fa-band-aid
+fa-bandcamp xf2d5
+fa-barcode xf02a
+fa-bars xf0c9
+fa-baseball-ball
+fa-basketball-ball
+fa-bath xf2cd
+fa-battery-empty xf244
+fa-battery-full xf240
+fa-battery-half xf242
+fa-battery-quarter xf243
+fa-battery-three-quarters xf241
+fa-battle-net
+fa-bed xf236
+fa-beer xf0fc
+fa-behance xf1b4
+fa-behance-square xf1b5
+fa-bell xf0f3
+fa-bell-slash xf1f6
+fa-bezier-curve
+fa-bible
+fa-bicycle xf206
+fa-biking
+fa-bimobject
+fa-binoculars xf1e5
+fa-biohazard
+fa-birthday-cake xf1fd
+fa-bitbucket xf171
+fa-bitcoin
+fa-bity
+fa-black-tie xf27e
+fa-blackberry
+fa-blender
+fa-blender-phone
+fa-blind xf29d
+fa-blog
+fa-blogger
+fa-blogger-b
+fa-bluetooth xf293
+fa-bluetooth-b xf294
+fa-bold xf032
+fa-bolt xf0e7
+fa-bomb xf1e2
+fa-bone
+fa-bong
+fa-book xf02d
+fa-book-dead
+fa-book-medical
+fa-book-open
+fa-book-reader
+fa-bookmark xf02e
+fa-bootstrap
+fa-border-all
+fa-border-none
+fa-border-style
+fa-bowling-ball
+fa-box
+fa-box-open
+fa-box-tissue
+fa-boxes
+fa-braille xf2a1
+fa-brain
+fa-bread-slice
+fa-briefcase xf0b1
+fa-briefcase-medical
+fa-broadcast-tower
+fa-broom
+fa-brush
+fa-btc xf15a
+fa-buffer
+fa-bug xf188
+fa-building xf1ad
+fa-bullhorn xf0a1
+fa-bullseye xf140
+fa-burn
+fa-buromobelexperte
+fa-bus xf207
+fa-bus-alt
+fa-business-time
+fa-buy-n-large
+fa-buysellads xf20d
+fa-calculator xf1ec
+fa-calendar xf073
+fa-calendar-alt
+fa-calendar-check
+fa-calendar-day
+fa-calendar-minus
+fa-calendar-plus
+fa-calendar-times
+fa-calendar-week
+fa-camera xf030
+fa-camera-retro xf083
+fa-campground
+fa-canadian-maple-leaf
+fa-candy-cane
+fa-cannabis
+fa-capsules
+fa-car xf1b9
+fa-car-alt
+fa-car-battery
+fa-car-crash
+fa-car-side
+fa-caravan
+fa-caret-down xf0d7
+fa-caret-left xf0d9
+fa-caret-right xf0da
+fa-caret-square-down
+fa-caret-square-left
+fa-caret-square-right
+fa-caret-square-up
+fa-caret-up xf0d8
+fa-carrot
+fa-cart-arrow-down xf218
+fa-cart-plus xf217
+fa-cash-register
+fa-cat
+fa-cc-amazon-pay
+fa-cc-amex xf1f3
+fa-cc-apple-pay
+fa-cc-diners-club xf24c
+fa-cc-discover xf1f2
+fa-cc-jcb xf24b
+fa-cc-mastercard xf1f1
+fa-cc-paypal xf1f4
+fa-cc-stripe xf1f5
+fa-cc-visa xf1f0
+fa-centercode
+fa-centos
+fa-certificate xf0a3
+fa-chair
+fa-chalkboard
+fa-chalkboard-teacher
+fa-charging-station
+fa-chart-area
+fa-chart-bar
+fa-chart-line
+fa-chart-pie
+fa-check xf00c
+fa-check-circle xf058
+fa-check-double
+fa-check-square xf14a
+fa-cheese
+fa-chess
+fa-chess-bishop
+fa-chess-board
+fa-chess-king
+fa-chess-knight
+fa-chess-pawn
+fa-chess-queen
+fa-chess-rook
+fa-chevron-circle-down xf13a
+fa-chevron-circle-left xf137
+fa-chevron-circle-right xf138
+fa-chevron-circle-up xf139
+fa-chevron-down xf078
+fa-chevron-left xf053
+fa-chevron-right xf054
+fa-chevron-up xf077
+fa-child xf1ae
+fa-chrome xf268
+fa-chromecast
+fa-church
+fa-circle xf111
+fa-circle-notch
+fa-city
+fa-clinic-medical
+fa-clipboard xf0ea
+fa-clipboard-check
+fa-clipboard-list
+fa-clock
+fa-clone xf24d
+fa-closed-captioning
+fa-cloud xf0c2
+fa-cloud-download-alt
+fa-cloud-meatball
+fa-cloud-moon
+fa-cloud-moon-rain
+fa-cloud-rain
+fa-cloud-showers-heavy
+fa-cloud-sun
+fa-cloud-sun-rain
+fa-cloud-upload-alt
+fa-cloudflare
+fa-cloudscale
+fa-cloudsmith
+fa-cloudversify
+fa-cocktail
+fa-code xf121
+fa-code-branch
+fa-codepen xf1cb
+fa-codiepie xf284
+fa-coffee xf0f4
+fa-cog xf013
+fa-cogs xf085
+fa-coins
+fa-columns xf0db
+fa-comment xf075
+fa-comment-alt
+fa-comment-dollar
+fa-comment-dots
+fa-comment-medical
+fa-comment-slash
+fa-comments xf086
+fa-comments-dollar
+fa-compact-disc
+fa-compass xf14e
+fa-compress xf066
+fa-compress-alt
+fa-compress-arrows-alt
+fa-concierge-bell
+fa-confluence
+fa-connectdevelop xf20e
+fa-contao xf26d
+fa-cookie
+fa-cookie-bite
+fa-copy
+fa-copyright xf1f9
+fa-cotton-bureau
+fa-couch
+fa-cpanel
+fa-creative-commons xf25e
+fa-creative-commons-by
+fa-creative-commons-nc
+fa-creative-commons-nc-eu
+fa-creative-commons-nc-jp
+fa-creative-commons-nd
+fa-creative-commons-pd
+fa-creative-commons-pd-alt
+fa-creative-commons-remix
+fa-creative-commons-sa
+fa-creative-commons-sampling
+fa-creative-commons-sampling-plus
+fa-creative-commons-share
+fa-creative-commons-zero
+fa-credit-card xf09d
+fa-critical-role
+fa-crop xf125
+fa-crop-alt
+fa-cross
+fa-crosshairs xf05b
+fa-crow
+fa-crown
+fa-crutch
+fa-css3 xf13c
+fa-css3-alt
+fa-cube xf1b2
+fa-cubes xf1b3
+fa-cut
+fa-cuttlefish
+fa-d-and-d
+fa-d-and-d-beyond
+fa-dailymotion
+fa-dashcube xf210
+fa-database xf1c0
+fa-deaf xf2a4
+fa-deezer
+fa-delicious xf1a5
+fa-democrat
+fa-deploydog
+fa-deskpro
+fa-desktop xf108
+fa-dev
+fa-deviantart xf1bd
+fa-dharmachakra
+fa-dhl
+fa-diagnoses
+fa-diaspora
+fa-dice
+fa-dice-d20
+fa-dice-d6
+fa-dice-five
+fa-dice-four
+fa-dice-one
+fa-dice-six
+fa-dice-three
+fa-dice-two
+fa-digg xf1a6
+fa-digital-ocean
+fa-digital-tachograph
+fa-directions
+fa-discord
+fa-discourse
+fa-disease
+fa-divide
+fa-dizzy
+fa-dna
+fa-dochub
+fa-docker
+fa-dog
+fa-dollar-sign
+fa-dolly
+fa-dolly-flatbed
+fa-donate
+fa-door-closed
+fa-door-open
+fa-dot-circle
+fa-dove
+fa-download xf019
+fa-draft2digital
+fa-drafting-compass
+fa-dragon
+fa-draw-polygon
+fa-dribbble xf17d
+fa-dribbble-square
+fa-dropbox xf16b
+fa-drum
+fa-drum-steelpan
+fa-drumstick-bite
+fa-drupal xf1a9
+fa-dumbbell
+fa-dumpster
+fa-dumpster-fire
+fa-dungeon
+fa-dyalog
+fa-earlybirds
+fa-ebay
+fa-edge xf282
+fa-edge-legacy
+fa-edit
+fa-egg
+fa-eject xf052
+fa-elementor
+fa-ellipsis-h xf141
+fa-ellipsis-v xf142
+fa-ello
+fa-ember
+fa-empire xf1d1
+fa-envelope xf0e0
+fa-envelope-open xf2b6
+fa-envelope-open-text
+fa-envelope-square xf199
+fa-envira xf299
+fa-equals
+fa-eraser xf12d
+fa-erlang
+fa-ethereum
+fa-ethernet
+fa-etsy xf2d7
+fa-euro-sign
+fa-evernote
+fa-exchange-alt
+fa-exclamation xf12a
+fa-exclamation-circle xf06a
+fa-exclamation-triangle xf071
+fa-expand xf065
+fa-expand-alt
+fa-expand-arrows-alt
+fa-expeditedssl xf23e
+fa-external-link-alt
+fa-external-link-square-alt
+fa-eye xf06e
+fa-eye-dropper
+fa-eye-slash xf070
+fa-facebook xf09a
+fa-facebook-f
+fa-facebook-messenger
+fa-facebook-square xf082
+fa-fan
+fa-fantasy-flight-games
+fa-fast-backward xf049
+fa-fast-forward xf050
+fa-faucet
+fa-fax xf1ac
+fa-feather
+fa-feather-alt
+fa-fedex
+fa-fedora
+fa-female xf182
+fa-fighter-jet xf0fb
+fa-figma
+fa-file xf15b
+fa-file-alt
+fa-file-archive
+fa-file-audio
+fa-file-code
+fa-file-contract
+fa-file-csv
+fa-file-download
+fa-file-excel
+fa-file-export
+fa-file-image
+fa-file-import
+fa-file-invoice
+fa-file-invoice-dollar
+fa-file-medical
+fa-file-medical-alt
+fa-file-pdf
+fa-file-powerpoint
+fa-file-prescription
+fa-file-signature
+fa-file-upload
+fa-file-video
+fa-file-word
+fa-fill
+fa-fill-drip
+fa-film xf008
+fa-filter xf0b0
+fa-fingerprint
+fa-fire xf06d
+fa-fire-alt
+fa-fire-extinguisher xf134
+fa-firefox xf269
+fa-firefox-browser
+fa-first-aid
+fa-first-order xf2b0
+fa-first-order-alt
+fa-firstdraft
+fa-fish
+fa-fist-raised
+fa-flag xf024
+fa-flag-checkered xf11e
+fa-flag-usa
+fa-flask xf0c3
+fa-flickr xf16e
+fa-flipboard
+fa-flushed
+fa-fly
+fa-folder xf07b
+fa-folder-minus
+fa-folder-open xf07c
+fa-folder-plus
+fa-font xf031
+fa-font-awesome xf2b4
+fa-font-awesome-alt
+fa-font-awesome-flag
+fa-font-awesome-logo-full
+fa-fonticons xf280
+fa-fonticons-fi
+fa-football-ball
+fa-fort-awesome xf286
+fa-fort-awesome-alt
+fa-forumbee xf211
+fa-forward xf04e
+fa-foursquare xf180
+fa-free-code-camp xf2c5
+fa-freebsd
+fa-frog
+fa-frown
+fa-frown-open
+fa-fulcrum
+fa-funnel-dollar
+fa-futbol
+fa-galactic-republic
+fa-galactic-senate
+fa-gamepad xf11b
+fa-gas-pump
+fa-gavel xf0e3
+fa-gem
+fa-genderless xf22d
+fa-get-pocket xf265
+fa-gg xf260
+fa-gg-circle xf261
+fa-ghost
+fa-gift xf06b
+fa-gifts
+fa-git xf1d3
+fa-git-alt
+fa-git-square xf1d2
+fa-github xf09b
+fa-github-alt xf113
+fa-github-square xf092
+fa-gitkraken
+fa-gitlab xf296
+fa-gitter
+fa-glass-cheers
+fa-glass-martini
+fa-glass-martini-alt
+fa-glass-whiskey
+fa-glasses
+fa-glide xf2a5
+fa-glide-g xf2a6
+fa-globe xf0ac
+fa-globe-africa
+fa-globe-americas
+fa-globe-asia
+fa-globe-europe
+fa-gofore
+fa-golf-ball
+fa-goodreads
+fa-goodreads-g
+fa-google xf1a0
+fa-google-drive
+fa-google-pay
+fa-google-play
+fa-google-plus xf0d5
+fa-google-plus-g
+fa-google-plus-square xf0d4
+fa-google-wallet xf1ee
+fa-gopuram
+fa-graduation-cap xf19d
+fa-gratipay xf184
+fa-grav xf2d6
+fa-greater-than
+fa-greater-than-equal
+fa-grimace
+fa-grin
+fa-grin-alt
+fa-grin-beam
+fa-grin-beam-sweat
+fa-grin-hearts
+fa-grin-squint
+fa-grin-squint-tears
+fa-grin-stars
+fa-grin-tears
+fa-grin-tongue
+fa-grin-tongue-squint
+fa-grin-tongue-wink
+fa-grin-wink
+fa-grip-horizontal
+fa-grip-lines
+fa-grip-lines-vertical
+fa-grip-vertical
+fa-gripfire
+fa-grunt
+fa-guilded
+fa-guitar
+fa-gulp
+fa-h-square xf0fd
+fa-hacker-news xf1d4
+fa-hacker-news-square
+fa-hackerrank
+fa-hamburger
+fa-hammer
+fa-hamsa
+fa-hand-holding
+fa-hand-holding-heart
+fa-hand-holding-medical
+fa-hand-holding-usd
+fa-hand-holding-water
+fa-hand-lizard
+fa-hand-middle-finger
+fa-hand-paper
+fa-hand-peace
+fa-hand-point-down
+fa-hand-point-left
+fa-hand-point-right
+fa-hand-point-up
+fa-hand-pointer
+fa-hand-rock
+fa-hand-scissors
+fa-hand-sparkles
+fa-hand-spock
+fa-hands
+fa-hands-helping
+fa-hands-wash
+fa-handshake
+fa-handshake-alt-slash
+fa-handshake-slash
+fa-hanukiah
+fa-hard-hat
+fa-hashtag xf292
+fa-hat-cowboy
+fa-hat-cowboy-side
+fa-hat-wizard
+fa-hdd
+fa-head-side-cough
+fa-head-side-cough-slash
+fa-head-side-mask
+fa-head-side-virus
+fa-heading
+fa-headphones xf025
+fa-headphones-alt
+fa-headset
+fa-heart xf004
+fa-heart-broken
+fa-heartbeat xf21e
+fa-helicopter
+fa-highlighter
+fa-hiking
+fa-hippo
+fa-hips
+fa-hire-a-helper
+fa-history xf1da
+fa-hive
+fa-hockey-puck
+fa-holly-berry
+fa-home xf015
+fa-hooli
+fa-hornbill
+fa-horse
+fa-horse-head
+fa-hospital
+fa-hospital-alt
+fa-hospital-symbol
+fa-hospital-user
+fa-hot-tub
+fa-hotdog
+fa-hotel
+fa-hotjar
+fa-hourglass xf254
+fa-hourglass-end xf253
+fa-hourglass-half xf252
+fa-hourglass-start xf251
+fa-house-damage
+fa-house-user
+fa-houzz xf27c
+fa-hryvnia
+fa-html5 xf13b
+fa-hubspot
+fa-i-cursor xf246
+fa-ice-cream
+fa-icicles
+fa-icons
+fa-id-badge xf2c1
+fa-id-card xf2c2
+fa-id-card-alt
+fa-ideal
+fa-igloo
+fa-image
+fa-images
+fa-imdb xf2d8
+fa-inbox xf01c
+fa-indent xf03c
+fa-industry xf275
+fa-infinity
+fa-info xf129
+fa-info-circle xf05a
+fa-innosoft
+fa-instagram xf16d
+fa-instagram-square
+fa-instalod
+fa-intercom
+fa-internet-explorer xf26b
+fa-invision
+fa-ioxhost xf208
+fa-italic xf033
+fa-itch-io
+fa-itunes
+fa-itunes-note
+fa-java
+fa-jedi
+fa-jedi-order
+fa-jenkins
+fa-jira
+fa-joget
+fa-joint
+fa-joomla xf1aa
+fa-journal-whills
+fa-js
+fa-js-square
+fa-jsfiddle xf1cc
+fa-kaaba
+fa-kaggle
+fa-key xf084
+fa-keybase
+fa-keyboard
+fa-keycdn
+fa-khanda
+fa-kickstarter
+fa-kickstarter-k
+fa-kiss
+fa-kiss-beam
+fa-kiss-wink-heart
+fa-kiwi-bird
+fa-korvue
+fa-landmark
+fa-language xf1ab
+fa-laptop xf109
+fa-laptop-code
+fa-laptop-house
+fa-laptop-medical
+fa-laravel
+fa-lastfm xf202
+fa-lastfm-square xf203
+fa-laugh
+fa-laugh-beam
+fa-laugh-squint
+fa-laugh-wink
+fa-layer-group
+fa-leaf xf06c
+fa-leanpub xf212
+fa-lemon
+fa-less
+fa-less-than
+fa-less-than-equal
+fa-level-down-alt
+fa-level-up-alt
+fa-life-ring xf1cd
+fa-lightbulb
+fa-line
+fa-link xf0c1
+fa-linkedin xf0e1
+fa-linkedin-in
+fa-linode xf2b8
+fa-linux xf17c
+fa-lira-sign
+fa-list xf03a
+fa-list-alt xf022
+fa-list-ol xf0cb
+fa-list-ul xf0ca
+fa-location-arrow xf124
+fa-lock xf023
+fa-lock-open
+fa-long-arrow-alt-down
+fa-long-arrow-alt-left
+fa-long-arrow-alt-right
+fa-long-arrow-alt-up
+fa-low-vision xf2a8
+fa-luggage-cart
+fa-lungs
+fa-lungs-virus
+fa-lyft
+fa-magento
+fa-magic xf0d0
+fa-magnet xf076
+fa-mail-bulk
+fa-mailchimp
+fa-male xf183
+fa-mandalorian
+fa-map xf279
+fa-map-marked
+fa-map-marked-alt
+fa-map-marker xf041
+fa-map-marker-alt
+fa-map-pin xf276
+fa-map-signs xf277
+fa-markdown
+fa-marker
+fa-mars xf222
+fa-mars-double xf227
+fa-mars-stroke xf229
+fa-mars-stroke-h xf22b
+fa-mars-stroke-v xf22a
+fa-mask
+fa-mastodon
+fa-maxcdn xf136
+fa-mdb
+fa-medal
+fa-medapps
+fa-medium xf23a
+fa-medium-m
+fa-medkit
+fa-medrt
+fa-meetup xf2e0
+fa-megaport
+fa-meh
+fa-meh-blank
+fa-meh-rolling-eyes
+fa-memory
+fa-mendeley
+fa-menorah
+fa-mercury xf223
+fa-meteor
+fa-microblog
+fa-microchip xf2db
+fa-microphone xf130
+fa-microphone-alt
+fa-microphone-alt-slash
+fa-microphone-slash xf131
+fa-microscope
+fa-microsoft
+fa-minus xf068
+fa-minus-circle xf056
+fa-minus-square xf146
+fa-mitten
+fa-mix
+fa-mixcloud xf289
+fa-mixer
+fa-mizuni
+fa-mobile xf10b
+fa-mobile-alt
+fa-modx xf285
+fa-monero
+fa-money-bill
+fa-money-bill-alt
+fa-money-bill-wave
+fa-money-bill-wave-alt
+fa-money-check
+fa-money-check-alt
+fa-monument
+fa-moon
+fa-mortar-pestle
+fa-mosque
+fa-motorcycle xf21c
+fa-mountain
+fa-mouse
+fa-mouse-pointer xf245
+fa-mug-hot
+fa-music xf001
+fa-napster
+fa-neos
+fa-network-wired
+fa-neuter xf22c
+fa-newspaper
+fa-nimblr
+fa-node
+fa-node-js
+fa-not-equal
+fa-notes-medical
+fa-npm
+fa-ns8
+fa-nutritionix
+fa-object-group xf247
+fa-object-ungroup xf248
+fa-octopus-deploy
+fa-odnoklassniki xf263
+fa-odnoklassniki-square xf264
+fa-oil-can
+fa-old-republic
+fa-om
+fa-opencart xf23d
+fa-openid xf19b
+fa-opera xf26a
+fa-optin-monster xf23c
+fa-orcid
+fa-osi
+fa-otter
+fa-outdent xf03b
+fa-page4
+fa-pagelines xf18c
+fa-pager
+fa-paint-brush xf1fc
+fa-paint-roller
+fa-palette
+fa-palfed
+fa-pallet
+fa-paper-plane xf1d8
+fa-paperclip xf0c6
+fa-parachute-box
+fa-paragraph xf1dd
+fa-parking
+fa-passport
+fa-pastafarianism
+fa-paste
+fa-patreon
+fa-pause xf04c
+fa-pause-circle xf28b
+fa-paw xf1b0
+fa-paypal xf1ed
+fa-peace
+fa-pen
+fa-pen-alt
+fa-pen-fancy
+fa-pen-nib
+fa-pen-square
+fa-pencil-alt
+fa-pencil-ruler
+fa-penny-arcade
+fa-people-arrows
+fa-people-carry
+fa-pepper-hot
+fa-perbyte
+fa-percent xf295
+fa-percentage
+fa-periscope
+fa-person-booth
+fa-phabricator
+fa-phoenix-framework
+fa-phoenix-squadron
+fa-phone xf095
+fa-phone-alt
+fa-phone-slash
+fa-phone-square xf098
+fa-phone-square-alt
+fa-phone-volume
+fa-photo-video
+fa-php
+fa-pied-piper xf2ae
+fa-pied-piper-alt xf1a8
+fa-pied-piper-hat
+fa-pied-piper-pp xf1a7
+fa-pied-piper-square
+fa-piggy-bank
+fa-pills
+fa-pinterest xf0d2
+fa-pinterest-p xf231
+fa-pinterest-square xf0d3
+fa-pizza-slice
+fa-place-of-worship
+fa-plane xf072
+fa-plane-arrival
+fa-plane-departure
+fa-plane-slash
+fa-play xf04b
+fa-play-circle xf144
+fa-playstation
+fa-plug xf1e6
+fa-plus xf067
+fa-plus-circle xf055
+fa-plus-square xf0fe
+fa-podcast xf2ce
+fa-poll
+fa-poll-h
+fa-poo
+fa-poo-storm
+fa-poop
+fa-portrait
+fa-pound-sign
+fa-power-off xf011
+fa-pray
+fa-praying-hands
+fa-prescription
+fa-prescription-bottle
+fa-prescription-bottle-alt
+fa-print xf02f
+fa-procedures
+fa-product-hunt xf288
+fa-project-diagram
+fa-pump-medical
+fa-pump-soap
+fa-pushed
+fa-puzzle-piece xf12e
+fa-python
+fa-qq xf1d6
+fa-qrcode xf029
+fa-question xf128
+fa-question-circle xf059
+fa-quidditch
+fa-quinscape
+fa-quora xf2c4
+fa-quote-left xf10d
+fa-quote-right xf10e
+fa-quran
+fa-r-project
+fa-radiation
+fa-radiation-alt
+fa-rainbow
+fa-random xf074
+fa-raspberry-pi
+fa-ravelry xf2d9
+fa-react
+fa-reacteurope
+fa-readme
+fa-rebel xf1d0
+fa-receipt
+fa-record-vinyl
+fa-recycle xf1b8
+fa-red-river
+fa-reddit xf1a1
+fa-reddit-alien xf281
+fa-reddit-square xf1a2
+fa-redhat
+fa-redo
+fa-redo-alt
+fa-registered xf25d
+fa-remove-format
+fa-renren xf18b
+fa-reply xf112
+fa-reply-all xf122
+fa-replyd
+fa-republican
+fa-researchgate
+fa-resolving
+fa-restroom
+fa-retweet xf079
+fa-rev
+fa-ribbon
+fa-ring
+fa-road xf018
+fa-robot
+fa-rocket xf135
+fa-rocketchat
+fa-rockrms
+fa-route
+fa-rss xf09e
+fa-rss-square xf143
+fa-ruble-sign
+fa-ruler
+fa-ruler-combined
+fa-ruler-horizontal
+fa-ruler-vertical
+fa-running
+fa-rupee-sign
+fa-rust
+fa-sad-cry
+fa-sad-tear
+fa-safari xf267
+fa-salesforce
+fa-sass
+fa-satellite
+fa-satellite-dish
+fa-save
+fa-schlix
+fa-school
+fa-screwdriver
+fa-scribd xf28a
+fa-scroll
+fa-sd-card
+fa-search xf002
+fa-search-dollar
+fa-search-location
+fa-search-minus xf010
+fa-search-plus xf00e
+fa-searchengin
+fa-seedling
+fa-sellcast
+fa-sellsy xf213
+fa-server xf233
+fa-servicestack
+fa-shapes
+fa-share xf064
+fa-share-alt xf1e0
+fa-share-alt-square xf1e1
+fa-share-square xf14d
+fa-shekel-sign
+fa-shield-alt
+fa-shield-virus
+fa-ship xf21a
+fa-shipping-fast
+fa-shirtsinbulk xf214
+fa-shoe-prints
+fa-shopify
+fa-shopping-bag xf290
+fa-shopping-basket xf291
+fa-shopping-cart xf07a
+fa-shopware
+fa-shower xf2cc
+fa-shuttle-van
+fa-sign
+fa-sign-in-alt
+fa-sign-language xf2a7
+fa-sign-out-alt
+fa-signal xf012
+fa-signature
+fa-sim-card
+fa-simplybuilt xf215
+fa-sink
+fa-sistrix
+fa-sitemap xf0e8
+fa-sith
+fa-skating
+fa-sketch
+fa-skiing
+fa-skiing-nordic
+fa-skull
+fa-skull-crossbones
+fa-skyatlas xf216
+fa-skype xf17e
+fa-slack xf198
+fa-slack-hash
+fa-slash
+fa-sleigh
+fa-sliders-h
+fa-slideshare xf1e7
+fa-smile
+fa-smile-beam
+fa-smile-wink
+fa-smog
+fa-smoking
+fa-smoking-ban
+fa-sms
+fa-snapchat xf2ab
+fa-snapchat-ghost xf2ac
+fa-snapchat-square xf2ad
+fa-snowboarding
+fa-snowflake
+fa-snowman
+fa-snowplow
+fa-soap
+fa-socks
+fa-solar-panel
+fa-sort xf0dc
+fa-sort-alpha-down
+fa-sort-alpha-down-alt
+fa-sort-alpha-up
+fa-sort-alpha-up-alt
+fa-sort-amount-down
+fa-sort-amount-down-alt
+fa-sort-amount-up
+fa-sort-amount-up-alt
+fa-sort-down
+fa-sort-numeric-down
+fa-sort-numeric-down-alt
+fa-sort-numeric-up
+fa-sort-numeric-up-alt
+fa-sort-up
+fa-soundcloud xf1be
+fa-sourcetree
+fa-spa
+fa-space-shuttle xf197
+fa-speakap
+fa-speaker-deck
+fa-spell-check
+fa-spider
+fa-spinner xf110
+fa-splotch
+fa-spotify xf1bc
+fa-spray-can
+fa-square xf0c8
+fa-square-full
+fa-square-root-alt
+fa-squarespace
+fa-stack-exchange xf18d
+fa-stack-overflow xf16c
+fa-stackpath
+fa-stamp
+fa-star xf005
+fa-star-and-crescent
+fa-star-half xf089
+fa-star-half-alt
+fa-star-of-david
+fa-star-of-life
+fa-staylinked
+fa-steam xf1b6
+fa-steam-square xf1b7
+fa-steam-symbol
+fa-step-backward xf048
+fa-step-forward xf051
+fa-stethoscope xf0f1
+fa-sticker-mule
+fa-sticky-note xf249
+fa-stop xf04d
+fa-stop-circle xf28d
+fa-stopwatch
+fa-stopwatch-20
+fa-store
+fa-store-alt
+fa-store-alt-slash
+fa-store-slash
+fa-strava
+fa-stream
+fa-street-view xf21d
+fa-strikethrough xf0cc
+fa-stripe
+fa-stripe-s
+fa-stroopwafel
+fa-studiovinari
+fa-stumbleupon xf1a4
+fa-stumbleupon-circle xf1a3
+fa-subscript xf12c
+fa-subway xf239
+fa-suitcase xf0f2
+fa-suitcase-rolling
+fa-sun
+fa-superpowers xf2dd
+fa-superscript xf12b
+fa-supple
+fa-surprise
+fa-suse
+fa-swatchbook
+fa-swift
+fa-swimmer
+fa-swimming-pool
+fa-symfony
+fa-synagogue
+fa-sync
+fa-sync-alt
+fa-syringe
+fa-table xf0ce
+fa-table-tennis
+fa-tablet xf10a
+fa-tablet-alt
+fa-tablets
+fa-tachometer-alt
+fa-tag xf02b
+fa-tags xf02c
+fa-tape
+fa-tasks xf0ae
+fa-taxi xf1ba
+fa-teamspeak
+fa-teeth
+fa-teeth-open
+fa-telegram xf2c6
+fa-telegram-plane
+fa-temperature-high
+fa-temperature-low
+fa-tencent-weibo xf1d5
+fa-tenge
+fa-terminal xf120
+fa-text-height xf034
+fa-text-width xf035
+fa-th xf00a
+fa-th-large xf009
+fa-th-list xf00b
+fa-the-red-yeti
+fa-theater-masks
+fa-themeco
+fa-themeisle xf2b2
+fa-thermometer
+fa-thermometer-empty xf2cb
+fa-thermometer-full xf2c7
+fa-thermometer-half xf2c9
+fa-thermometer-quarter xf2ca
+fa-thermometer-three-quarters xf2c8
+fa-think-peaks
+fa-thumbs-down xf165
+fa-thumbs-up xf164
+fa-thumbtack
+fa-ticket-alt
+fa-tiktok
+fa-times xf00d
+fa-times-circle xf057
+fa-tint xf043
+fa-tint-slash
+fa-tired
+fa-toggle-off xf204
+fa-toggle-on xf205
+fa-toilet
+fa-toilet-paper
+fa-toilet-paper-slash
+fa-toolbox
+fa-tools
+fa-tooth
+fa-torah
+fa-torii-gate
+fa-tractor
+fa-trade-federation
+fa-trademark xf25c
+fa-traffic-light
+fa-trailer
+fa-train xf238
+fa-tram
+fa-transgender xf224
+fa-transgender-alt xf225
+fa-trash xf1f8
+fa-trash-alt
+fa-trash-restore
+fa-trash-restore-alt
+fa-tree xf1bb
+fa-trello xf181
+fa-trophy xf091
+fa-truck xf0d1
+fa-truck-loading
+fa-truck-monster
+fa-truck-moving
+fa-truck-pickup
+fa-tshirt
+fa-tty xf1e4
+fa-tumblr xf173
+fa-tumblr-square xf174
+fa-tv
+fa-twitch xf1e8
+fa-twitter xf099
+fa-twitter-square xf081
+fa-typo3
+fa-uber
+fa-ubuntu
+fa-uikit
+fa-umbraco
+fa-umbrella xf0e9
+fa-umbrella-beach
+fa-uncharted
+fa-underline xf0cd
+fa-undo xf0e2
+fa-undo-alt
+fa-uniregistry
+fa-unity
+fa-universal-access xf29a
+fa-university xf19c
+fa-unlink
+fa-unlock xf09c
+fa-unlock-alt xf13e
+fa-unsplash
+fa-untappd
+fa-upload xf093
+fa-ups
+fa-usb xf287
+fa-user xf007
+fa-user-alt
+fa-user-alt-slash
+fa-user-astronaut
+fa-user-check
+fa-user-circle xf2bd
+fa-user-clock
+fa-user-cog
+fa-user-edit
+fa-user-friends
+fa-user-graduate
+fa-user-injured
+fa-user-lock
+fa-user-md xf0f0
+fa-user-minus
+fa-user-ninja
+fa-user-nurse
+fa-user-plus xf234
+fa-user-secret xf21b
+fa-user-shield
+fa-user-slash
+fa-user-tag
+fa-user-tie
+fa-user-times xf235
+fa-users xf0c0
+fa-users-cog
+fa-users-slash
+fa-usps
+fa-ussunnah
+fa-utensil-spoon
+fa-utensils
+fa-vaadin
+fa-vector-square
+fa-venus xf221
+fa-venus-double xf226
+fa-venus-mars xf228
+fa-vest
+fa-vest-patches
+fa-viacoin xf237
+fa-viadeo xf2a9
+fa-viadeo-square xf2aa
+fa-vial
+fa-vials
+fa-viber
+fa-video
+fa-video-slash
+fa-vihara
+fa-vimeo xf27d
+fa-vimeo-square xf194
+fa-vimeo-v
+fa-vine xf1ca
+fa-virus
+fa-virus-slash
+fa-viruses
+fa-vk xf189
+fa-vnv
+fa-voicemail
+fa-volleyball-ball
+fa-volume-down xf027
+fa-volume-mute
+fa-volume-off xf026
+fa-volume-up xf028
+fa-vote-yea
+fa-vr-cardboard
+fa-vuejs
+fa-walking
+fa-wallet
+fa-warehouse
+fa-watchman-monitoring
+fa-water
+fa-wave-square
+fa-waze
+fa-weebly
+fa-weibo xf18a
+fa-weight
+fa-weight-hanging
+fa-weixin xf1d7
+fa-whatsapp xf232
+fa-whatsapp-square
+fa-wheelchair xf193
+fa-whmcs
+fa-wifi xf1eb
+fa-wikipedia-w xf266
+fa-wind
+fa-window-close xf2d3
+fa-window-maximize xf2d0
+fa-window-minimize xf2d1
+fa-window-restore xf2d2
+fa-windows xf17a
+fa-wine-bottle
+fa-wine-glass
+fa-wine-glass-alt
+fa-wix
+fa-wizards-of-the-coast
+fa-wodu
+fa-wolf-pack-battalion
+fa-won-sign
+fa-wordpress xf19a
+fa-wordpress-simple
+fa-wpbeginner xf297
+fa-wpexplorer xf2de
+fa-wpforms xf298
+fa-wpressr
+fa-wrench xf0ad
+fa-x-ray
+fa-xbox
+fa-xing xf168
+fa-xing-square xf169
+fa-y-combinator xf23b
+fa-yahoo xf19e
+fa-yammer
+fa-yandex
+fa-yandex-international
+fa-yarn
+fa-yelp xf1e9
+fa-yen-sign
+fa-yin-yang
+fa-yoast xf2b1
+fa-youtube xf167
+fa-youtube-square xf166
+fa-zhihu
+icon-joomla
+icon-accessible
+icon-add
+icon-address-book
+icon-address
+icon-align-justify
+icon-angle-double-left
+icon-angle-double-right
+icon-angle-down
+icon-angle-left
+icon-angle-right
+icon-angle-up
+icon-apply
+icon-archive
+icon-arrow-down-2
+icon-arrow-down-3
+icon-arrow-down-4
+icon-arrow-down
+icon-arrow-first
+icon-arrow-last
+icon-arrow-left-2
+icon-arrow-left-3
+icon-arrow-left-4
+icon-arrow-left
+icon-arrow-right-2
+icon-arrow-right-3
+icon-arrow-right-4
+icon-arrow-right
+icon-arrow-up-2
+icon-arrow-up-3
+icon-arrow-up-4
+icon-arrow-up
+icon-arrows-alt
+icon-asterisk
+icon-attachment
+icon-backward-2
+icon-backward-circle
+icon-backward
+icon-ban-circle
+icon-bars
+icon-basket
+icon-bell
+icon-bolt
+icon-book
+icon-bookmark-2
+icon-bookmark
+icon-box-add
+icon-box-remove
+icon-briefcase
+icon-broadcast
+icon-brush
+icon-bubble-quote
+icon-bullhorn
+icon-calendar-check
+icon-calendar-2
+icon-calendar-3
+icon-calendar-alt
+icon-calendar
+icon-camera-2
+icon-camera
+icon-cancel-2
+icon-cancel-circle
+icon-cancel
+icon-caret-down
+icon-caret-up
+icon-cart
+icon-chart
+icon-check-circle
+icon-check-square
+icon-check
+icon-checkbox-checked
+icon-checkbox-partial
+icon-checkbox-unchecked
+icon-checkbox
+icon-checkedout
+icon-checkin
+icon-checkmark-2
+icon-checkmark-circle
+icon-checkmark
+icon-chevron-down
+icon-chevron-left
+icon-chevron-right
+icon-chevron-up
+icon-circle
+icon-clipboard
+icon-clock
+icon-cloud-download-alt
+icon-cloud-download
+icon-cloud-upload
+icon-cloud
+icon-code
+icon-code-branch
+icon-cog
+icon-cogs
+icon-collapse
+icon-color-palette
+icon-comment-dots
+icon-comment
+icon-comments-2
+icon-comments
+icon-compass
+icon-connection
+icon-contract-2
+icon-contract
+icon-copy
+icon-credit-2
+icon-credit
+icon-crop
+icon-cube
+icon-cubes
+icon-dashboard
+icon-database
+icon-default
+icon-delete
+icon-desktop
+icon-downarrow
+icon-download
+icon-drawer-2
+icon-drawer
+icon-edit
+icon-ellipsis-h
+icon-ellipsis-v
+icon-enter
+icon-envelope-open-text
+icon-envelope-opened
+icon-envelope
+icon-equalizer
+icon-error
+icon-exclamation-circle
+icon-exclamation-triangle
+icon-exclamation
+icon-exit
+icon-expand-2
+icon-expand
+icon-expired
+icon-external-link-alt
+icon-eye-2
+icon-eye-blocked
+icon-eye-close
+icon-eye-open
+icon-eye-slash
+icon-eye
+icon-fax
+icon-featured
+icon-feed
+icon-file-2
+icon-file-add
+icon-file-alt
+icon-file-check
+icon-file-minus
+icon-file-plus
+icon-file-remove
+icon-file
+icon-filter
+icon-first
+icon-flag-2
+icon-flag-3
+icon-flag
+icon-flash
+icon-folder-2
+icon-folder-3
+icon-folder-close
+icon-folder-minus
+icon-folder-open
+icon-folder-plus-2
+icon-folder-plus
+icon-folder-remove
+icon-folder
+icon-forward-2
+icon-forward-circle
+icon-forward
+icon-generic
+icon-globe
+icon-grid-2
+icon-grid-view-2
+icon-grid-view
+icon-grid
+icon-handshake
+icon-health
+icon-heart-2
+icon-heart
+icon-help
+icon-hits
+icon-home-2
+icon-home
+icon-image
+icon-images
+icon-info-2
+icon-info-circle
+icon-info
+icon-key
+icon-lamp
+icon-language
+icon-last
+icon-leftarrow
+icon-lightbulb
+icon-lightning
+icon-link
+icon-list-2
+icon-list-view
+icon-list
+icon-loading
+icon-location
+icon-lock
+icon-locked
+icon-loop
+icon-mail-2
+icon-mail
+icon-map-signs
+icon-menu-2
+icon-menu-3
+icon-menu
+icon-minus-2
+icon-minus-circle
+icon-minus-sign
+icon-minus
+icon-mobile
+icon-move
+icon-music
+icon-new-tab-2
+icon-new-tab
+icon-new
+icon-next
+icon-not-ok
+icon-notification-2
+icon-notification-circle
+icon-notification
+icon-ok
+icon-open
+icon-options
+icon-out-2
+icon-out-3
+icon-out
+icon-paint-brush
+icon-palette
+icon-paperclip
+icon-paragraph-center
+icon-paragraph-justify
+icon-paragraph-left
+icon-paragraph-right
+icon-pause-circle
+icon-pause
+icon-pen-square
+icon-pencil-2
+icon-pencil-alt
+icon-pencil
+icon-pending
+icon-phone-2
+icon-phone
+icon-picture
+icon-pictures
+icon-pie
+icon-pin
+icon-play-2
+icon-play-circle
+icon-play
+icon-plug
+icon-plus-2
+icon-plus-circle
+icon-plus-square
+icon-plus
+icon-power-cord
+icon-power-off
+icon-previous
+icon-print
+icon-printer
+icon-project-diagram
+icon-protected
+icon-publish
+icon-purge
+icon-pushpin
+icon-puzzle-piece
+icon-puzzle
+icon-question-2
+icon-question-circle
+icon-question-sign
+icon-question
+icon-quote-2
+icon-quote-3
+icon-quote
+icon-quotes-left
+icon-quotes-right
+icon-radio-checked
+icon-radio-unchecked
+icon-redo-2
+icon-redo
+icon-refresh
+icon-register
+icon-remove
+icon-reply
+icon-rightarrow
+icon-rss
+icon-save-copy
+icon-save-new
+icon-save
+icon-scissors
+icon-screen
+icon-screwdriver
+icon-search-minus
+icon-search-plus
+icon-search
+icon-select-file
+icon-share-alt
+icon-share
+icon-shield-alt
+icon-shield
+icon-shuffle
+icon-signup
+icon-sliders-h
+icon-smiley-2
+icon-smiley-happy-2
+icon-smiley-happy
+icon-smiley-neutral-2
+icon-smiley-neutral
+icon-smiley-sad-2
+icon-smiley-sad
+icon-smiley
+icon-sort
+icon-spinner
+icon-square
+icon-stack
+icon-star-2
+icon-star-empty
+icon-star
+icon-stop-circle
+icon-stop
+icon-success
+icon-support
+icon-switch
+icon-sync
+icon-tablet
+icon-tachometer-alt
+icon-tag-2
+icon-tag
+icon-tags-2
+icon-tags
+icon-tasks
+icon-text-width
+icon-th
+icon-th-large
+icon-thumbs-down
+icon-thumbs-up
+icon-times
+icon-toggle-off
+icon-toggle-on
+icon-tools
+icon-trash
+icon-tree-2
+icon-tree
+icon-trophy
+icon-unarchive
+icon-unblock
+icon-undo-2
+icon-undo
+icon-unfeatured
+icon-universal
+icon-universal-access
+icon-unlock-alt
+icon-unlock
+icon-unpublish
+icon-uparrow
+icon-upload
+icon-user-circle
+icon-user-edit
+icon-user-lock
+icon-user-tag
+icon-user
+icon-users-cog
+icon-users
+icon-vcard
+icon-video-2
+icon-video
+icon-wand
+icon-warning-2
+icon-warning-circle
+icon-warning
+icon-wifi
+icon-wrench
+icon-zoom-in
+icon-zoom-out
