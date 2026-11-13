@@ -7,7 +7,7 @@
     <authorEmail>mareike.riegel@ql.de</authorEmail>
     <authorUrl>http://ql.de/</authorUrl>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <version>3.1.0</version>
+    <version>3.1.1</version>
     <description>PLG_EDITORS-XTD_QLINSERT_XML_DESCRIPTION</description>
     <namespace path="src">Hoochicken\Plugin\EditorsXtd\Qlinsert</namespace>
     <updateservers>
