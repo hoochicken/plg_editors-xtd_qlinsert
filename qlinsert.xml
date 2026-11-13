@@ -7,7 +7,7 @@
     <authorEmail>mareike.riegel@ql.de</authorEmail>
     <authorUrl>http://ql.de/</authorUrl>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <version>3.0.0</version>
+    <version>3.1.0</version>
     <description>PLG_EDITORS-XTD_QLINSERT_XML_DESCRIPTION</description>
     <namespace path="src">Hoochicken\Plugin\EditorsXtd\Qlinsert</namespace>
     <updateservers>
@@ -105,7 +105,7 @@
             </fieldset>
             <fieldset name="single-insert">
                 <field name="oneclick" label="PLG_EDITORS-XTD_QLINSERT_DEFAULTONECLICK_LABEL"
-                       description="PLG_EDITORS-XTD_QLINSERT_ONECLICK_DESC" class="btn-group" type="radio" default="0">
+                       description="PLG_EDITORS-XTD_QLINSERT_DEFAULTONECLICK_DESC" class="btn-group" type="radio" default="0">
                     <option value="1">JYES</option>
                     <option value="0">JNO</option>
                 </field>
