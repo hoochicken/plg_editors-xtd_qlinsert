@@ -105,7 +105,7 @@
             </fieldset>
             <fieldset name="single-insert">
                 <field name="oneclick" label="PLG_EDITORS-XTD_QLINSERT_DEFAULTONECLICK_LABEL"
-                       description="PLG_EDITORS-XTD_QLINSERT_ONECLICK_DESC" class="btn-group" type="radio" default="0">
+                       description="PLG_EDITORS-XTD_QLINSERT_DEFAULTONECLICK_DESC" class="btn-group" type="radio" default="0">
                     <option value="1">JYES</option>
                     <option value="0">JNO</option>
                 </field>

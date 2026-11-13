@@ -1,0 +1,24 @@
+{
+    "name": "hoochicken/plg_editors-xtd_qlinsert",
+    "description": "Joomla editor button inserting predefined snippets",
+    "type": "joomla-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hoochicken\\Plugin\\EditorsXtd\\Qlinsert\\": "src/",
+            "Hoochicken\\Plugin\\EditorsXtd\\Qlinsert\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

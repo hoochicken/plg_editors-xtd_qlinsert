@@ -1,0 +1,25 @@
+# Runs the unit tests:  docker compose run --rm test
+#
+# The tests run against the Joomla libraries of a real Joomla 6 installation.
+# By default that is the site this plugin lives in (plugins/editors-xtd/qlinsert
+# -> ../../..). Point JOOMLA_ROOT elsewhere if needed:
+#   JOOMLA_ROOT=/path/to/joomla docker compose run --rm test
+services:
+  test:
+    build:
+      dockerfile_inline: |
+        FROM php:8.3-cli
+        RUN apt-get update && apt-get install -y --no-install-recommends unzip git && rm -rf /var/lib/apt/lists/*
+        COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+    working_dir: /app
+    environment:
+      JOOMLA_ROOT: /joomla
+      COMPOSER_ALLOW_SUPERUSER: "1"
+    volumes:
+      - ./:/app
+      - vendor:/app/vendor
+      - ${JOOMLA_ROOT:-../../..}:/joomla:ro
+    command: sh -c "composer install --no-interaction --no-progress && vendor/bin/phpunit"
+
+volumes:
+  vendor:
